@@ -2,16 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/final-project-team12" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week01-intro-data-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week02-data-viz-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week03-data-wrangle-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week04-wrangle-workflow-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week05-web-scrape-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week06-decisions-uncertainty-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week07-linear-regression-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week08-logistic-regression-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week09-model-evaluation-willxxy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ICS 80/week10-final-labs-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/final-project-team12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week01-intro-data-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week02-data-viz-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week03-data-wrangle-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week04-wrangle-workflow-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week06-decisions-uncertainty-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week07-linear-regression-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week08-logistic-regression-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week09-model-evaluation-willxxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ICS 80 1.53.17 AM/week10-final-labs-willxxy" vcs="Git" />
   </component>
 </project>
