@@ -1,1 +1,4 @@
 # Learning
+
+
+This repository contains all of the resources I used to further my knowledge in machine learning. 
