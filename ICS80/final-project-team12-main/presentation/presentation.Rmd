@@ -1,0 +1,606 @@
+---
+title: "Deepfakes in Medical Diagnosis"
+subtitle: "Doctors vs. Artifical Intelligence"
+author: "William Han, Christopher Soong, Matthew Jung, Daun Kim"
+date: "12/10/2021"
+output: 
+  xaringan::moon_reader:
+    css: custom-css.css
+    seal: false
+    lib_dir: libs
+    nature:
+      ratio: 16:9
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: title-slide, center, middle
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(janitor)
+library(broom)
+library(ggpubr)
+library(rvest)
+library(lubridate)
+library(knitr)
+library(kableExtra)
+```
+
+
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+
+---
+
+##Introduction
+
+With our rapid advancements of technology, the boundaries of what is thought to be possible is expanded every day.
+
+--
+
+
+However, this is not necessarily entirely beneficial. In recent years, cyber attacks have become a growing threat.
+
+--
+
+The Accellion data breach that affected the UC system earlier this year is one of many examples.
+
+---
+##Introduction
+
+The study that we focused on has created a fake scenario where CT scans of lung cancer have been tampered with after a cybersecurity breach, either adding or removing tumors using Deepfake technology
+
+--
+
+The three questions we asked for this dataset focused on determining whether or not doctors and AI could consistently sort through the tampered CT scans, and reliably deal with the aftereffects of a cyberattack.
+
+---
+
+
+##Key Questions 
+
+1. What is the accuracy of diagnosis between doctors and artificial intelligence systems?  
+
+--
+
+2. What is the extent of influence between open and blind trials in diagnosis given by doctors? 
+
+--
+
+3. Does higher confidence in doctors' answers give a more accurate diagnosis? 
+
+
+```{r, echo = FALSE, message = FALSE}
+library(janitor)
+library(lubridate)
+library(tidyverse)
+library(ggpubr)
+library(rvest)
+library(modelr)
+```
+
+```{r, echo = FALSE, message = FALSE}
+exp1_unknown_AI_instances <- readr::read_csv(here::here("data/Response EXP1 - AI_instances.csv"))
+
+exp1_unknown_AI_patients <- readr::read_csv(here::here("data/Response EXP1 - AI_patients.csv"))
+
+
+exp1_unknown_reviewer1_instances <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 1_instances.csv"))
+
+
+exp1_unknown_reviewer1_patients <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 1_patients.csv"))
+
+
+exp1_unknown_reviewer2_instances <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 2_instances.csv"))
+
+
+exp1_unknown_reviewer2_patients <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 2_patients.csv"))
+
+
+exp1_unknown_reviewer3_instances <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 3_instances.csv"))
+
+
+exp1_unknown_reviewer3_patients <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 3_patients.csv"))
+
+
+exp2_known_reviewer1_instances <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 1_instances.csv"))
+
+
+exp2_known_reviewer1_patients <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 1_patients.csv"))
+
+
+exp2_known_reviewer2_instances <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 2_instances.csv"))
+
+
+exp2_known_reviewer2_patients <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 2_patients.csv"))
+
+
+exp2_known_reviewer3_instances <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 3_instances.csv"))
+
+
+exp2_known_reviewer3_patients <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 3_patients.csv"))
+
+```
+
+```{r echo = FALSE}
+
+
+exp1_reviewers_accuracy <- rbind(exp1_unknown_reviewer1_patients, exp1_unknown_reviewer2_patients, exp1_unknown_reviewer3_patients)
+
+exp2_reviewers_accuracy <- rbind(exp2_known_reviewer1_patients, exp2_known_reviewer2_patients, exp2_known_reviewer3_patients)
+
+human_accuracy <- rbind(exp1_unknown_reviewer1_patients, exp1_unknown_reviewer2_patients, exp1_unknown_reviewer3_patients,exp2_known_reviewer1_patients, exp2_known_reviewer2_patients, exp2_known_reviewer3_patients)
+
+human_ai_classification <- rbind(human_accuracy, exp1_unknown_AI_patients)
+```
+
+
+---
+
+##Question 1
+
+--
+
+What is the accuracy of diagnosis between doctors and artificial intelligence systems? 
+
+---
+.pull-left[
+```{r echo = FALSE, message = FALSE}
+image_classification <- human_ai_classification |> 
+  ggplot(aes(x = type,
+             fill = misdiagnosed)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Diagnosis vs Image Type", x = "Image Type", y = "Count") +
+  theme_bw() + 
+  theme(plot.title = element_text(size = 30),
+        axis.title = element_text(size = 20),
+        axis.text = element_text(size = 18),
+        legend.title = element_text(size = 20),
+        legend.text = element_text(size = 18))
+
+image_classification
+```
+]
+
+.pull-right[
+True-Benign, (TB): No cancer
+
+True-Malicious (TM): Real cancer
+
+False-Benign (FB): Real cancer, but it was removed.
+
+False-Malicious (FM): Fake cancer was injected.
+]
+
+---
+Count of Diagnosis for Each Image Type
+
+```{r echo = FALSE, message = FALSE, fig.width = 10, fig.height = 10}
+true_benign <- human_ai_classification |>
+  group_by(type) |> 
+  count(misdiagnosed) |> 
+  filter(type == "TB")
+
+kable(true_benign) %>%
+  kable_styling(font_size = 30)
+
+true_malicious <- human_ai_classification |>
+  group_by(type) |> 
+  count(misdiagnosed) |> 
+  filter(type == "TM")
+
+kable(true_malicious) %>%
+  kable_styling(font_size = 30)
+
+false_benign <- human_ai_classification |>
+  group_by(type) |> 
+  count(misdiagnosed) |> 
+  filter(type == "FB")
+
+kable(false_benign) %>%
+  kable_styling(font_size = 30)
+
+false_malicious <- human_ai_classification |>
+  group_by(type) |> 
+  count(misdiagnosed) |> 
+  filter(type == "FM")
+
+kable(false_malicious) %>%
+  kable_styling(font_size = 30)
+```
+
+
+
+---
+```{r echo = FALSE, message = FALSE, fig.width = 20}
+
+AI_accuracy <- exp1_unknown_AI_patients |> 
+  ggplot(aes(x = misdiagnosed)) +
+  geom_bar() + 
+  labs(title = "AI", x = "Misdiagnosed", y = "Count") +
+  ylim(0,200) +
+  theme_bw(base_size = 18) 
+
+
+doctor_accuracy <- human_accuracy |> 
+  ggplot(aes(x = misdiagnosed)) +
+  geom_bar() +
+  labs(title = "Doctors", x = "Misdiagnosed", y = "Count") +
+  theme_bw(base_size = 18)
+
+ggarrange(AI_accuracy, doctor_accuracy,
+          ncol = 3, nrow=1)
+```
+
+
+
+```{r echo = FALSE, message = FALSE}
+prop_accu_exp1_unknown_AI_patients  <-
+  sum(exp1_unknown_AI_patients $ misdiagnosed == FALSE) / nrow(exp1_unknown_AI_patients)
+
+prop_accu_exp1_unknown_reviewer1_patients  <-
+  sum(exp1_unknown_reviewer1_patients $ misdiagnosed == FALSE) / nrow(exp1_unknown_AI_patients)
+
+prop_accu_exp1_unknown_reviewer2_patients  <-
+  sum(exp1_unknown_reviewer2_patients $ misdiagnosed == FALSE) / nrow(exp1_unknown_AI_patients)
+
+prop_accu_exp1_unknown_reviewer3_patients  <-
+  sum(exp1_unknown_reviewer3_patients $ misdiagnosed == FALSE) / nrow(exp1_unknown_AI_patients)
+
+prop_accu_exp2_known_reviewer1_patients  <-
+  sum(exp2_known_reviewer1_patients $ misdiagnosed == FALSE) / nrow(exp1_unknown_AI_patients)
+
+prop_accu_exp2_known_reviewer2_patients  <-
+  sum(exp2_known_reviewer2_patients $ misdiagnosed == FALSE) / nrow(exp1_unknown_AI_patients)
+
+prop_accu_exp2_known_reviewer3_patients  <-
+  sum(exp2_known_reviewer3_patients $ misdiagnosed == FALSE) / nrow(exp1_unknown_AI_patients)
+```
+
+
+```{r echo = FALSE, message = FALSE}
+proportion_accuracy_ai <- prop_accu_exp1_unknown_AI_patients
+
+
+proportion_accuracy_dr <- (prop_accu_exp1_unknown_reviewer1_patients +
+                     prop_accu_exp1_unknown_reviewer2_patients +
+                     prop_accu_exp1_unknown_reviewer3_patients +
+                       prop_accu_exp2_known_reviewer1_patients +
+                       prop_accu_exp2_known_reviewer2_patients +
+                       prop_accu_exp2_known_reviewer3_patients) / 3
+```
+
+---
+```{r echo = FALSE, message = FALSE, fig.width = 15}
+groups <- c('proportion_accuracy_ai', 'proportion_accuracy_dr')
+prop_accu <- c(proportion_accuracy_ai, proportion_accuracy_dr)
+
+
+prop_accu_db <- tibble(groups, prop_accu)
+
+
+prop_accu_db %>%
+  filter(groups == 'proportion_accuracy_ai' | groups == 'proportion_accuracy_dr') %>% 
+  ggplot(aes(x = groups, 
+             y = prop_accu,
+             fill = groups)) +
+  geom_col() +
+  labs(x = 'AI vs Doctors',
+       y = 'accuracy proportion',
+       title = 'AI vs Doctors accuracy') +
+  theme_bw(base_size = 22) +
+  ylim(0.0, 1.0)
+```
+
+
+---
+##Accuracy of Diagnosis 
+###Doctors vs AI
+
+--
+```{r echo = FALSE}
+kable(prop_accu_db) %>%
+  kable_styling(font_size = 30)
+```
+--
+
+```{r echo = FALSE, message= FALSE}
+prop_diff <- proportion_accuracy_dr - proportion_accuracy_ai
+```
+The difference between Doctors and AI in their respective accuracy proportions
+is `r prop_diff`
+
+
+---
+#Question 2 
+
+--
+
+What is the extent of influence between open and blind trials in diagnosis given by doctors? 
+
+---
+class: center
+
+```{r echo = FALSE, message = FALSE, warning = FALSE, fig.width = 14, fig.height = 6}
+
+
+EXP1_accuracy <- exp1_reviewers_accuracy |> 
+  ggplot(aes(x = misdiagnosed)) +
+  geom_bar() +
+  theme_bw(base_size = 22) +
+  labs(title = "Blind")
+
+
+EXP2_accuracy <- exp2_reviewers_accuracy |> 
+  ggplot(aes(x = misdiagnosed)) +
+  geom_bar() +
+  theme_bw(base_size = 22) +
+  labs(title = "Open")
+
+
+
+ggarrange(EXP1_accuracy, EXP2_accuracy, 
+          ncol = 2, nrow=1,
+          font.label = list(size = 30))
+```
+
+.pull-left[
+Blind Trial:
+
+FALSE < TRUE
+]
+
+.pull-right[
+Open Trial:
+
+FALSE > TRUE
+]
+
+
+---
+class: center, middle
+
+.pull-left[
+```{r echo = FALSE, message = FALSE}
+prop_accu_open <- (prop_accu_exp1_unknown_reviewer1_patients +
+                     prop_accu_exp1_unknown_reviewer2_patients +
+                     prop_accu_exp1_unknown_reviewer3_patients) / 3
+
+prop_accu_blind <- (prop_accu_exp2_known_reviewer1_patients +
+                      prop_accu_exp2_known_reviewer2_patients +
+                      prop_accu_exp2_known_reviewer3_patients) / 3
+```
+
+```{r echo = FALSE, message = FALSE}
+groups <- c('prop_accu_open', 'prop_accu_blind')
+prop_accu <- c(prop_accu_open, prop_accu_blind)
+
+prop_accu_db <- tibble(groups, prop_accu)
+```
+
+```{r echo = FALSE, message = FALSE, fig.width = 8}
+prop_accu_db %>%
+  filter(groups == 'prop_accu_open' | groups == 'prop_accu_blind') %>% 
+  ggplot(aes(x = groups,
+             y = prop_accu,
+             fill = groups)) +
+  geom_col() +
+  labs(x = 'blind vs open',
+       y = 'accuracy proportion',
+       title = 'Blind Trial vs Open Trial') +
+  theme_bw() +
+  theme(plot.title = element_text(size = 30),
+        axis.title = element_text(size = 20),
+        axis.text = element_text(size = 18),
+        legend.title = element_text(size = 20),
+        legend.text = element_text(size = 18)) +
+  ylim(0.0, 1.0)
+```
+]
+
+.pull-right[
+Accuracy Proportion
+
+Blind trial = `r prop_accu_blind`
+
+Open trial = `r prop_accu_open`
+
+]
+---
+class: center, middle
+
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+model_exp1 <- glm(misdiagnosed ~ n_missed,
+                  data = exp1_reviewers_accuracy,
+                  family = binomial)
+
+model_exp1_fail <- glm(misdiagnosed ~ n_fail + r_fail,
+                  data = exp1_reviewers_accuracy,
+                  family = binomial)
+model_exp1_succ <- glm(misdiagnosed ~ n_succ + r_succ,
+                  data = exp1_reviewers_accuracy,
+                  family = binomial)
+
+```
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+model_exp2 <- glm(misdiagnosed ~ n_missed,
+                  data = exp2_reviewers_accuracy,
+                  family = binomial)
+
+model_exp2_fail <- glm(misdiagnosed ~ n_fail + r_fail,
+                  data = exp2_reviewers_accuracy,
+                  family = binomial)
+
+model_exp2_succ <- glm(misdiagnosed ~ n_succ + r_succ,
+                  data = exp2_reviewers_accuracy,
+                  family = binomial)
+```
+
+.pull-left[
+
+```{r echo = FALSE, message = FALSE}
+exp1_reviewers_accuracy <- exp1_reviewers_accuracy %>% 
+  add_predictions(model_exp1) %>% 
+  mutate(pred_p = exp(pred)/(1+exp(pred))) %>% 
+  mutate(pred_accu = case_when(pred_p < 0.5 ~ FALSE, 
+                           pred_p >= 0.5 ~ TRUE))
+
+tabyl(exp1_reviewers_accuracy, misdiagnosed, pred_accu) %>% 
+  adorn_totals(c("row", "col")) %>% 
+  kable(caption = "Blind Trial Model Confusion Matrix") %>%
+  kable_styling(font_size = 30) %>%
+    gsub("font-size: initial !important;", 
+         "font-size: 30pt !important;", 
+         .)
+```
+
+Sensitivity: 175/175 = 1.0000
+
+Specificity: 0/65 = 0.0000  
+
+Accuracy: (0+175)/240 = 0.7292
+
+]
+
+.pull-right[
+
+```{r echo = FALSE, message = FALSE}
+exp2_reviewers_accuracy <- exp2_reviewers_accuracy %>% 
+  add_predictions(model_exp2) %>% 
+  mutate(pred_p = exp(pred)/(1+exp(pred))) %>% 
+  mutate(pred_accu = case_when(pred_p < 0.5 ~ FALSE, 
+                           pred_p >= 0.5 ~ TRUE))
+
+tabyl(exp2_reviewers_accuracy, misdiagnosed, pred_accu) %>% 
+  adorn_totals(c("row", "col")) %>% 
+  kable(caption = "Open Trial Model Confusion Matrix") %>%
+  kable_styling(font_size = 30) %>%
+    gsub("font-size: initial !important;", 
+         "font-size: 30pt !important;", 
+         .)
+```
+
+Sensitivity: 11/24 = 0.4583
+
+Specificity: 32/36 = 0.8889
+
+Accuracy: (32+11)/60 = 0.7167
+
+]
+
+---
+
+#Question 3
+--
+
+Does higher confidence in doctors give a more accurate diagnosis? 
+
+
+```{r echo = FALSE, message = FALSE}
+inst_1 <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 1_instances.csv"))
+inst_2 <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 2_instances.csv"))
+inst_3 <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 3_instances.csv"))
+
+exp2_instances <- rbind(inst_1, inst_2, inst_3)
+
+exp2_instances <- exp2_instances %>% 
+  mutate(misdiagnosed = case_when(
+    str_detect(type, prediction) ~ FALSE,
+    !str_detect(type, prediction) ~ TRUE
+  ))
+
+exp2_instances_new <- exp2_instances %>%
+  mutate(confidence = as.character(confidence)) %>% 
+  group_by(confidence) %>% 
+  mutate(miss_rate = sum(misdiagnosed, na.rm = TRUE) / (sum(!misdiagnosed) + sum(misdiagnosed, na.rm = TRUE))) 
+
+```
+---
+class: center, middle
+
+```{r echo = FALSE, fig.width = 10, fig.height = 8}
+exp2_instances %>% 
+  ggplot(aes(
+    x = misdiagnosed,
+    y = confidence
+  )) +
+  geom_violin() +
+  theme_bw(base_size = 22) +
+  labs(
+    x = "Was Case Misdiagnosed?",
+    y = "Confidence Level",
+    title = "Confidence Distribution between Accurate/Inaccurate"
+  )
+```
+---
+class: center, middle
+
+.pull-left[
+```{r echo = FALSE, fig.width = 7, fig.height = 7}
+exp2_miss_rate <- exp2_instances_new %>% 
+  count(miss_rate)
+
+exp2_miss_rate %>% 
+  ggplot(aes(
+    x = confidence,
+    y = miss_rate
+  )) +
+  geom_col(fill = "#D55E00") +
+  labs(
+    x = "Level of Confidence",
+    y = "Miss Rate (Misdiagnosed Cases / Total Cases)",
+    title = "Blind Trials (Experiment 2)"
+  ) +
+  theme_bw(base_size = 22)
+```
+]
+
+.pull-right[
+
+
+```{r echo = FALSE, fig.width = 8, fig.height = 8}
+exp2_miss_rate %>% 
+  knitr::kable(caption = "Confidence Level: Count and Miss Rate") %>%
+  kable_styling(font_size = 30) %>%
+    gsub("font-size: initial !important;", 
+         "font-size: 30pt !important;", 
+         .)
+```
+]
+
+---
+class: center, middle
+
+#Conclusion
+
+---
+### AI vs Doctors Accuracy
+
+Although the number of observations were smaller in AI then Doctors,
+through the proportion, we saw that the accuracy of diagnosis in Doctors is higher.
+
+--
+### Open vs Blind Trial
+
+The diagnosis given by doctors had a greater rate of accuracy during the open trials, rather than the blind trials, showing a large amount of influence.
+
+--
+### Doctor's Confidence 
+
+The majority of cases had a confidence level of 5, but the misdiagnoses were relatively more concentrated at level 5.
+The misdiagnosis rate appeared to increase with confidence, with confidence level 2 being an outlier.
+
+---
+### Significance
+
+Cyberattacks are a growing threat, and by understanding the level of damage that they can cause, we can help to prepare systems against such attacks.
+
+The data from this study helps to develop that understanding and bring awareness to such possible threats.

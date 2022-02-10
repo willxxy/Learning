@@ -1,0 +1,261 @@
+---
+title: "Proposal"
+author: "William Han, Christopher Soong, Matthew Jung, Daun Kim"
+date: "10/21/2021"
+output: html_document
+---
+
+# Introduction
+
+In our continually evolving world of technology, the threat of cyber attacks grows with each day.
+Security breaches and data leaks are becoming more and more common, such as the Accellion data leak that affected the UC system earlier this year.
+
+With a successful cyber attack on a hospital, the attacker not only has access to medical information, but can tamper with it in any way they see fit. 
+Aside from a severe invasion of privacy, alterations to patients' information could lead to further misdiagnosis, falsificaiton of medical history for a patient's benefit or hinderance, or even identity theft.
+This opens up a realm of possibilities for the attacker, giving them full control over patients' livelihood.
+
+The data presents just one hypothetical example of what a cyber attack can do to medical information.
+As people's lives are at risk, being able to identify Deepfake tampered images of cancer is of utmost importance.
+
+
+Consequently, there will be 3 main questions that team 12 would like to find out through this data set. 
+
+1. What is the accuracy of diagnosis between doctors and artificial intelligence systems? 
+
+2. What is the extent of influence between open and blind trials in diagnosis given by doctors? 
+
+3. Does higher confidence in doctors give a more accurate diagnosis?
+
+# Data
+
+Dataset:
+https://archive.ics.uci.edu/ml/datasets/Deepfakes%3A+Medical+Image+Tamper+Detection
+
+```{r, echo = FALSE, message = FALSE}
+library(janitor)
+library(lubridate)
+library(tidyverse)
+library(ggpubr)
+library(rvest)
+```
+
+
+
+```{r echo = FALSE}
+robotstxt::paths_allowed("https://archive.ics.uci.edu/ml/datasets/Deepfakes%3A+Medical+Image+Tamper+Detection")
+```
+
+```{r, echo = FALSE, message = FALSE}
+exp1_known_AI_instances <- readr::read_csv(here::here("data/Response EXP1 - AI_instances.csv"))
+
+exp1_known_AI_patients <- readr::read_csv(here::here("data/Response EXP1 - AI_patients.csv"))
+
+
+exp1_known_reviewer1_instances <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 1_instances.csv"))
+
+
+exp1_known_reviewer1_patients <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 1_patients.csv"))
+
+
+exp1_known_reviewer2_instances <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 2_instances.csv"))
+
+
+exp1_known_reviewer2_patients <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 2_patients.csv"))
+
+
+exp1_known_reviewer3_instances <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 3_instances.csv"))
+
+
+exp1_known_reviewer3_patients <- readr::read_csv(here::here("data/Response EXP1 - Reviewer 3_patients.csv"))
+
+
+exp2_unknown_reviewer1_instances <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 1_instances.csv"))
+
+
+exp2_unknown_reviewer1_patients <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 1_patients.csv"))
+
+
+exp2_unknown_reviewer2_instances <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 2_instances.csv"))
+
+
+exp2_unknown_reviewer2_patients <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 2_patients.csv"))
+
+
+exp2_unknown_reviewer3_instances <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 3_instances.csv"))
+
+
+exp2_unknown_reviewer3_patients <- readr::read_csv(here::here("data/Response EXP2 - Reviewer 3_patients.csv"))
+
+```
+
+```{r}
+glimpse(exp1_known_AI_instances)
+
+glimpse(exp1_known_AI_patients)
+
+glimpse(exp1_known_reviewer1_instances)
+
+glimpse(exp1_known_reviewer1_patients)
+
+glimpse(exp1_known_reviewer2_instances)
+
+glimpse(exp1_known_reviewer2_patients)
+
+glimpse(exp1_known_reviewer3_instances)
+
+glimpse(exp1_known_reviewer3_patients)
+
+glimpse(exp2_unknown_reviewer1_instances)
+
+glimpse(exp2_unknown_reviewer1_patients)
+
+glimpse(exp2_unknown_reviewer2_instances)
+
+glimpse(exp2_unknown_reviewer2_patients)
+
+glimpse(exp2_unknown_reviewer3_instances)
+
+glimpse(exp2_unknown_reviewer3_patients)
+
+
+```
+
+# Data Analysis Plan 
+
+What is your primary variable of interest? (Response variable)
+
+Accuracy(Diagnosis/Misdiagnosis)
+
+
+What other variables (explanatory variables) will you be using to understand the response variable?
+
+Doctor vs. AI (Categorical)
+
+Blind Trial vs. Open Trial (Categorical)
+
+
+Run preliminary analysis (including visuals and descriptive summary statistics) to get some idea about answers to your questions. 
+
+
+```{r echo = FALSE}
+
+
+exp1_reviewers_accuracy <- rbind(exp1_known_reviewer1_patients, exp1_known_reviewer2_patients, exp1_known_reviewer3_patients)
+
+exp2_reviewers_accuracy <- rbind(exp2_unknown_reviewer1_patients, exp2_unknown_reviewer2_patients, exp2_unknown_reviewer3_patients)
+
+AI_accuracy <- exp1_known_AI_patients |> 
+  ggplot(aes(x = misdiagnosed)) +
+  geom_bar()
+
+EXP1_accuracy <- exp1_reviewers_accuracy |> 
+  ggplot(aes(x = misdiagnosed)) +
+  geom_bar()
+
+EXP2_accuracy <- exp2_reviewers_accuracy |> 
+  ggplot(aes(x = misdiagnosed)) +
+  geom_bar()
+
+ggarrange(AI_accuracy, EXP1_accuracy, EXP2_accuracy,
+          labels = c("AI", "EXP1 (Blind)", "EXP2 (Open)"),
+          ncol = 3, nrow = 1)
+```
+
+
+```{r echo = FALSE, message = FALSE}
+prop_accu_exp1_known_AI_patients  <-
+  sum(exp1_known_AI_patients $ misdiagnosed == TRUE) / nrow(exp1_known_AI_patients)
+
+prop_accu_exp1_known_reviewer1_patients  <-
+  sum(exp1_known_reviewer1_patients $ misdiagnosed == TRUE) / nrow(exp1_known_AI_patients)
+
+prop_accu_exp1_known_reviewer2_patients  <-
+  sum(exp1_known_reviewer2_patients $ misdiagnosed == TRUE) / nrow(exp1_known_AI_patients)
+
+prop_accu_exp1_known_reviewer3_patients  <-
+  sum(exp1_known_reviewer3_patients $ misdiagnosed == TRUE) / nrow(exp1_known_AI_patients)
+
+prop_accu_exp2_unknown_reviewer1_patients  <-
+  sum(exp2_unknown_reviewer1_patients $ misdiagnosed == TRUE) / nrow(exp1_known_AI_patients)
+
+prop_accu_exp2_unknown_reviewer2_patients  <-
+  sum(exp2_unknown_reviewer2_patients $ misdiagnosed == TRUE) / nrow(exp1_known_AI_patients)
+
+prop_accu_exp2_unknown_reviewer3_patients  <-
+  sum(exp2_unknown_reviewer3_patients $ misdiagnosed == TRUE) / nrow(exp1_known_AI_patients)
+```
+
+```{r echo = FALSE, message = FALSE}
+prop_accu_AI <- prop_accu_exp1_known_AI_patients
+prop_accu_doctor <- (prop_accu_exp1_known_reviewer1_patients +
+                      prop_accu_exp1_known_reviewer2_patients +
+                      prop_accu_exp1_known_reviewer3_patients) / 3
+```
+
+```{r echo = FALSE, message = FALSE}
+prop_accu_open <- (prop_accu_exp1_known_reviewer1_patients +
+                     prop_accu_exp1_known_reviewer2_patients +
+                     prop_accu_exp1_known_reviewer3_patients) / 3
+
+prop_accu_blind <- (prop_accu_exp2_unknown_reviewer1_patients +
+                      prop_accu_exp2_unknown_reviewer2_patients +
+                      prop_accu_exp2_unknown_reviewer3_patients) / 3
+```
+
+```{r echo = FALSE, message = FALSE}
+groups <- c('prop_accu_open', 'prop_accu_blind', 'prop_accu_doctor', 'prop_accu_AI')
+prop_accu <- c(prop_accu_open, prop_accu_blind, prop_accu_doctor, prop_accu_AI)
+
+prop_accu_db <- tibble(groups, prop_accu)
+```
+
+
+
+$$ (\pi_D > \pi_A)
+or
+(\pi_D < \pi_A)$$
+
+For this one experiment sample, the accuracy proportion of AI is `r prop_accu_AI`,
+and the accuracy proportion of doctors is `r prop_accu_doctor`.
+
+Therefore, we can analyze with this one sample that
+even though the accuracy proportion of AI is bigger than the accuracy proportion of doctors,
+the proportion of doctors' accuracy is slightly different from the proportion of AI's accuracy,
+so doctors are enough to be confident correct.
+
+```{r echo = FALSE, message = FALSE}
+prop_accu_db %>%
+  filter(groups == 'prop_accu_AI' | groups == 'prop_accu_doctor') %>% 
+  ggplot(aes(x = groups, 
+             y = prop_accu,
+             fill = groups)) +
+  geom_col() +
+  labs(x = 'AI vs Doctors',
+       y = 'accuracy proportion',
+       title = 'AI vs Doctors accuracy') +
+  theme_bw()
+```
+
+$$(\pi_B > \pi_O)
+or 
+(\pi_B < \pi_O)$$
+
+The accuracy proportion of the open trial which is implemented by the experiment 1 is `r prop_accu_open`,
+and the accuracy proportion of the blind trial which is implemented by the experiment 2 is `r prop_accu_blind`.
+
+Therefore, we can analyze from these two experiments that
+doctors are more accurate when they know the data has been tampered with.
+
+
+```{r echo = FALSE, message = FALSE}
+prop_accu_db %>%
+  filter(groups == 'prop_accu_open' | groups == 'prop_accu_blind') %>% 
+  ggplot(aes(x = groups,
+             y = prop_accu,
+             fill = groups)) +
+  geom_col() +
+  labs(x = 'blind vs open',
+       y = 'accuracy proportion',
+       title = 'Blind trial vs Open trial') +
+  theme_bw()
+```
