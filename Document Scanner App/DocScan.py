@@ -57,6 +57,8 @@ for c in cnts:
     #approx contours
     
     peri = cv2.arcLength(c, True)
+    #approx = cv2.approxPolyDP(c, 80, True)
+
     approx = cv2.approxPolyDP(c, 0.02 * peri, True)
     
     #if approx contour has 4 points, then assume we found
@@ -69,7 +71,7 @@ for c in cnts:
 #show contour (outline) of document
 
 print("Contour Detection")
-cv2.drawContours(image, [screenCnt], -1, (0, 255, 0), 2)
+cv2.drawContours(image, [screenCnt], -1, (0, 255, 0), 3)
 cv2.imshow("Outline", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
