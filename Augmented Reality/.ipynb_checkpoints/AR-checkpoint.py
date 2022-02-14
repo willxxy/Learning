@@ -44,7 +44,7 @@ def load():
     
     #Load 3D model from OBJ file
     
-    obj = OBJ(os.path.join(dir_name, '3D_models/steve-obj/steve.obj'), swapyz = True)
+    obj = OBJ(os.path.join(dir_name, '3D_models/low-poly-fox-by-pixelmannen-obj/low-poly-fox-by-pixelmannen.obj'), swapyz = True)
     
     #init video capture
     
@@ -211,7 +211,7 @@ def hex_to_rgb(hex_color):
     return tuple(int(hex_color[i:i + h_len // 3], 16) for i in range(0, h_len, h_len//3))
 
 
-#comman line arg parse
+#command line arg parse
     
     
     
@@ -222,7 +222,7 @@ parser.add_argument('-mk','--model_keypoints', help = 'draw model keypoints', ac
 parser.add_argument('-fk','--frame_keypoints', help = 'draw frame keypoints', action = 'store_true')
 parser.add_argument('-ma','--matches', help = 'draw matches between keypoints', action = 'store_true')
 
-#parser.add_argument('-mo','--model', help = 'Specify model to be projected', action = 'store_true')
+parser.add_argument('-mo','--model', help = 'Specify model to be projected', action = 'store_true')
 
 args = parser.parse_args()
 
