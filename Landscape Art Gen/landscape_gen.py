@@ -169,7 +169,7 @@ def load():
         [layer_4, layer_3, layer_2, layer_1], width, height, colour_theme
     )
     
-    landscape.save(os.getcwd() + "/generated_imgs/landscape7.png")
+    landscape.save(os.getcwd() + "/generated_imgs/landscape8.png")
     
     
 if __name__ == "__main__":
