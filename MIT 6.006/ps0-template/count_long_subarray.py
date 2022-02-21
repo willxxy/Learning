@@ -4,7 +4,11 @@ def count_long_subarray(A):
     Output: count | number of longest increasing subarrays of A
     '''
     count = 0
-    ##################
-    # YOUR CODE HERE #
-    ##################
+
+    for
+
+    
+
+
+    
     return count
