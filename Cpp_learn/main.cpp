@@ -1,6 +1,7 @@
-#include <iostream>
+#include <iostream> 
+#include <compare>
 
 int main(){
-    auto result = (10 <= 20) > 0;
+    auto result = (10 <=> 20) > 0;
     std::cout << result << std::endl;
 }
