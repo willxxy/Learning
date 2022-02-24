@@ -12,3 +12,10 @@ int main(){
     return 0;
 }
 
+
+//One line comment
+
+/*
+    Multi line block
+
+*/
