@@ -29,6 +29,4 @@ def count_long_subarray(A):
             count = 1
             
 
-
-    
     return count
