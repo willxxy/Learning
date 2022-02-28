@@ -6,8 +6,16 @@ output: html_document
 ---
 
 
+```{r}
 library(lubridate)
 library(bsts)
 library(dplyr)
 library(ggplot2)
 library(forecast)
+```
+
+
+```{r}
+data("AirPassengers")
+```
+
