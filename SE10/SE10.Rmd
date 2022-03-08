@@ -1,0 +1,40 @@
+---
+title: "SE10"
+author: "William Han"
+date: "3/8/2022"
+output: html_document
+---
+
+```{r}
+library(janitor)
+library(lubridate)
+library(tidyverse)
+library(ggpubr)
+library(rvest)
+```
+
+```{r}
+group_A <- readr::read_csv(here::here("SE10/data/Attitudes on AI  - Group A-control.csv"))
+group_B <- readr::read_csv(here::here("SE10/data/Attitudes on AI  - Group B-experiment.csv"))
+```
+
+```{r}
+glimpse(group_A)
+glimpse(group_B)
+```
+
+```{r}
+group_A |> 
+  filter()
+```
+
+
+```{r}
+major_work_A <- group_A |> 
+  ggplot(aes(y = )) + 
+  geom_bar()
+
+major_work_A
+```
+
+
