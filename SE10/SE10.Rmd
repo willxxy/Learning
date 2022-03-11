@@ -102,3 +102,56 @@ group_B |>
 under 22 - 63
 between 22 and 30 - 21
 30 and above - 16
+
+
+
+
+
+
+
+
+
+### Group A responses
+
+
+
+```{r}
+group_A |> 
+  ggplot(aes(x = first_notice_ai_in_workforce)) + 
+  geom_bar() + 
+  labs(x = 'First Noticing AI in the Workforce')
+```
+
+
+```{r}
+group_A |> 
+  ggplot(aes(x = ai_is_important_daily)) + 
+  geom_bar() + 
+  labs(x = 'AI is an Important Part of my Daily Life')
+```
+
+
+
+
+```{r}
+group_A |> 
+  ggplot(aes(x = ai_helps_life)) + 
+  geom_bar() + 
+  labs(x = 'AI Helps/Improves my Life')
+```
+
+
+
+```{r}
+group_A |> 
+  ggplot(aes(x = ai_replace_human)) + 
+  geom_bar() + 
+  labs(x = 'D')
+```
+
+
+
+
+
+
+
