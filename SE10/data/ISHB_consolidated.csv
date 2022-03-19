@@ -1,0 +1,411 @@
+﻿ID,Data Set,GlobalID,CITY,HOST_LATIN_NAME,HOST_COMMON_NAME,REPRODUCTIVE_HOST,Diameter at Breast Hight_INCHES,HEIGHT_FEET,INFESTATION_LEVEL,DIEBACK,PRIORITY_FOR_REMOVAL,Sample Date,x,y
+1,1,9f70155b-0869-4558-a797-99d6ce97c4f2,South El Monte,Platanus x hispanica,London plane,Y,14,30,Moderate,Moderate,Moderate,12/1/20,-118.0638211,34.04649836
+2,1,b83e919e-7168-4c78-909e-f81c991415d3,South El Monte,Platanus x hispanica,London plane,Y,23,120,Heavy,Low,Moderate to high,12/1/20,-118.0637685,34.04620443
+3,1,b59163fc-c6d7-4d00-bc26-a13d9a784792,South El Monte,Platanus x hispanica,London plane,Y,12,30,Low,Low,Low,12/1/20,-118.063848,34.04588088
+4,1,b466c05b-8610-4e9f-b7e1-73da09671d11,South El Monte,Platanus x hispanica,London plane,Y,19,55,Heavy,Moderate,Moderate to high,12/1/20,-118.0636258,34.04651819
+5,1,3d47b5a2-613b-4b1e-a7f1-1102600b32b1,South El Monte,Platanus x hispanica,London plane,Y,19,100,Severe,Heavy,Moderate to high,12/1/20,-118.0636605,34.04648689
+6,1,32e28818-3337-44f6-b65b-5e3d65c0fdcf,South El Monte,Platanus x hispanica,London plane,Y,20,100,Heavy,Heavy,Moderate to high,12/1/20,-118.0636195,34.04636368
+7,1,6b1ba4c4-0c45-4941-8047-a5885472d591,South El Monte,Platanus x hispanica,London plane,Y,24,130,Severe,Severe,High,12/1/20,-118.0635823,34.04626527
+8,1,203744e3-f853-442d-852a-f8cd4da87a61,South El Monte,Platanus x hispanica,London plane,Y,30,140,Severe,Severe,High,12/1/20,-118.0635428,34.04618806
+9,1,af70fefa-8c1a-4f75-a194-84a7d4a2f1ce,South El Monte,Platanus x hispanica,London plane,Y,28,100,Heavy,Moderate,Moderate to high,12/8/20,-118.0636507,34.04603413
+10,1,a183080e-3ab6-415a-a0ac-b0ea94e80d22,South El Monte,Platanus x hispanica,London plane,Y,30,100,Moderate,Moderate,Moderate,12/8/20,-118.0636351,34.04590996
+11,1,0aec3e13-4788-4407-8428-596bb399a561,South El Monte,Platanus x hispanica,London plane,Y,27,100,Severe,Severe,High,12/8/20,-118.0635555,34.04586442
+12,1,57572d98-8bfb-4b88-aae1-d167ee6a21a5,South El Monte,Platanus x hispanica,London plane,Y,28,100,Severe,Severe,High,12/8/20,-118.063634,34.04581154
+13,1,5b86a8a2-007f-4c54-862c-6979fbcf8456,South El Monte,Platanus x hispanica,London plane,Y,28,100,Moderate,Moderate,Moderate,12/8/20,-118.0636725,34.04572706
+14,1,f4550d01-e7e9-48fe-9e2e-9065729b6f0b,South El Monte,Platanus x hispanica,London plane,Y,26,100,Heavy,Moderate,Moderate to high,12/8/20,-118.0635684,34.04551984
+15,1,596e3640-b5a1-4381-a56e-b2165986aff9,South El Monte,Platanus x hispanica,London plane,Y,26,95,Heavy,Heavy,High,12/8/20,-118.0636087,34.04543321
+16,1,220e49e7-3a2e-4645-a38a-bcd7aefa774a,South El Monte,Platanus x hispanica,London plane,Y,30,100,Severe,Severe,High,12/8/20,-118.0636265,34.04539372
+17,1,1fc15e50-ce71-4044-b203-49bb13cc7909,South El Monte,Platanus x hispanica,London plane,Y,27,90,Heavy,Low,Moderate to high,12/8/20,-118.0636448,34.04524223
+18,1,312a7893-8851-4a5c-9171-37bc7acf4daa,South El Monte,Platanus x hispanica,London plane,Y,12,35,Low,Low,Low,12/8/20,-118.0631979,34.04543284
+19,1,2476c3f7-96f8-4239-963c-d817d4e4e807,South El Monte,Platanus x hispanica,London plane,Y,47,175,Low,Low,Low,12/9/20,-118.0637249,34.04465508
+20,1,088e7101-029a-46d2-acc9-4375fa68e6ac,South El Monte,Platanus x hispanica,London plane,Y,32,80,Moderate,Low,Low,12/9/20,-118.0636557,34.04441257
+21,1,da3fc0e3-e699-49dc-97a2-db89af67f067,South El Monte,Platanus x hispanica,London plane,Y,19,50,Moderate,Severe,High,12/10/20,-118.0634247,34.04452191
+22,1,b01ee4e8-ed3b-48b0-9906-04e5dbac1a46,South El Monte,Platanus x hispanica,London plane,Y,19,80,Moderate,Severe,Moderate to High,12/10/20,-118.0633745,34.04453955
+23,1,0c3e49a5-1845-4795-9656-6413e6a7b25e,South El Monte,Platanus x hispanica,London plane,Y,32,100,Severe,Heavy,High,12/10/20,-118.0637541,34.04404243
+24,1,eac230b9-08e5-4064-bfa7-6c2b0b946364,South El Monte,Platanus x hispanica,London plane,Y,42,130,Heavy,Moderate,High,12/10/20,-118.0629124,34.04509782
+25,1,87ed602c-9799-41b2-860e-d5c208ab7f2c,South El Monte,Platanus x hispanica,London plane,Y,34,90,Moderate,Moderate,Moderate,12/10/20,-118.0628551,34.04501273
+26,1,0fe96dde-4df0-4a9e-b26b-bbf8771b8d83,South El Monte,Platanus x hispanica,London plane,Y,45,100,Moderate,Heavy,Moderate to high,12/10/20,-118.0628279,34.04511526
+27,1,7828aa3c-84e4-4b71-8316-dbf34ee27296,South El Monte,Platanus x hispanica,London plane,Y,30,120,Moderate,Heavy,Moderate,12/15/20,-118.0631589,34.04466498
+28,1,15c5ef18-3810-4aa4-8dcf-031d9f5050c4,South El Monte,Platanus x hispanica,London plane,Y,27,90,Low,Moderate,Low,12/15/20,-118.0630512,34.04462862
+29,1,3be3e573-c670-4ae7-afd8-e795fd521d1b,South El Monte,Platanus x hispanica,London plane,Y,21,35,Severe,Dead,High,12/15/20,-118.0629879,34.04463741
+30,1,f8469ee4-2c6e-43b2-a957-a71158b78004,South El Monte,Platanus x hispanica,London plane,Y,41,120,Moderate,Moderate,Moderate,12/15/20,-118.0629409,34.04464034
+31,1,b136d2cc-e735-4d67-9cdd-b06be3b3422b,South El Monte,Platanus x hispanica,London plane,Y,45,130,Heavy,Moderate,High,12/15/20,-118.0626381,34.04464634
+32,1,59e112b1-9202-4ed6-802d-4d5c9e9b775d,South El Monte,Platanus x hispanica,London plane,Y,39,100,Low,Low,Low,12/17/20,-118.0625378,34.04453952
+33,1,5ecf9300-ef18-4636-8e49-3f3ab8f38952,South El Monte,Platanus x hispanica,London plane,Y,41,120,Low,Moderate,Low,12/17/20,-118.062261,34.04459611
+34,1,f8e1a14b-94f6-4e72-b619-d2377a96c5db,South El Monte,Platanus x hispanica,London plane,Y,42,120,Low,Moderate,Low,12/17/20,-118.0622579,34.04463181
+35,1,f33eeb85-0f59-4404-80ee-c1042e42d608,South El Monte,Platanus x hispanica,London plane,Y,43,100,Moderate,Heavy,Moderate to high,12/17/20,-118.0620608,34.04459787
+36,1,c896163e-11ae-4698-a7d3-1f5c70111a4c,South El Monte,Platanus x hispanica,London plane,Y,44,99,Low,Low,Low,12/17/20,-118.0620951,34.04471802
+37,1,fa212be9-cc4e-428f-afa1-45bdbe06ab7f,South El Monte,Platanus x hispanica,London plane,Y,45,125,Moderate,Low,Moderate,12/17/20,-118.0619805,34.04455702
+38,1,c2e4cde6-9ff8-480a-b269-694813383ac3,South El Monte,Platanus x hispanica,London plane,Y,45,140,Severe,Severe,High,12/17/20,-118.0618615,34.04440816
+39,1,1ecfeb60-6be5-4823-87d0-0071e52594e8,South El Monte,Platanus x hispanica,London plane,Y,35,90,Low,Low,Low,12/21/20,-118.0624287,34.04498108
+40,1,d53c7cc2-397d-446d-83f6-4cf5aed89dad,South El Monte,Platanus x hispanica,London plane,Y,45,100,Heavy,Low,Moderate to High,12/21/20,-118.0620782,34.04435877
+41,1,ebdd3709-7b81-4135-a8fe-693dc77f61f8,South El Monte,Platanus x hispanica,London plane,Y,25,90,Low,Low,Low,12/21/20,-118.0618812,34.04440627
+42,1,b6afc4b7-2c11-4ef8-9533-1a972b6b7eb0,South El Monte,Platanus x hispanica,London plane,Y,30,115,Low,Low,Low,12/21/20,-118.0618159,34.04446861
+43,1,fc7e40be-6807-4a09-bf3e-64060b130572,South El Monte,Platanus x hispanica,London plane,Y,27,100,Low,Moderate,Low,12/21/20,-118.0617801,34.04449853
+44,1,3590ba55-b0d0-4c8b-b293-df9f9c98ecd9,South El Monte,Platanus x hispanica,London plane,Y,38,100,Low,Low,Low,12/21/20,-118.0617076,34.04451218
+45,1,944e5f42-2126-454d-ae7c-2def7a23e484,South El Monte,Platanus x hispanica,London plane,Y,40,120,Low,Low,Low,12/21/20,-118.0615936,34.04447554
+46,1,5b53bd51-abcb-4a82-811a-9a7bf3de7663,South El Monte,Platanus x hispanica,London plane,Y,50,140,Moderate,Low,Low,12/21/20,-118.0616335,34.04537658
+47,1,f9386d56-ec0b-4256-b208-26b2450acabe,South El Monte,Platanus x hispanica,London plane,Y,30,80,Low,Low,Low,12/21/20,-118.0618718,34.04545429
+48,1,3c9d6b8d-efd8-4488-8af5-c25a233baf44,Los Angeles,Platanus racemosa,California sycamore,Y,12,50,Severe,Low,,12/30/20,-118.1997458,34.10217512
+49,1,2d6f2f00-a619-4db3-8c64-f18a0616ad56,Los Angeles,Platanus racemosa,California sycamore,Y,11,45,Severe,Severe,,12/30/20,-118.1991448,34.10234513
+50,1,9bc2269d-052c-4cdb-98d5-ff7c76d22f4c,South El Monte,Platanus x hispanica,London plane,Y,32,90,Heavy,Low,Moderate to high,1/4/21,-118.0623614,34.04272568
+51,1,b6775bbf-8f33-4b69-9fcf-79fdd5d8c2fd,South El Monte,Platanus x hispanica,London plane,Y,33,80,Moderate,Low,Low,1/4/21,-118.0623452,34.04243228
+52,1,c4598f45-9f46-461c-aac9-95377a54bf43,South El Monte,Platanus x hispanica,London plane,Y,28,75,Moderate,Low,High,1/4/21,-118.0622018,34.04249564
+53,1,110b1410-410f-4ee5-840c-d213672674d3,South El Monte,Platanus x hispanica,London plane,Y,37,110,Moderate,Low,Moderate to High,1/4/21,-118.062225,34.0426166
+54,1,c8d9b075-b144-41ea-a04e-9f1f519fa127,South El Monte,Platanus x hispanica,London plane,Y,29,75,Heavy,Low,Moderate to high,1/4/21,-118.0621165,34.04253548
+55,1,b7193710-049f-4b5b-b428-afd55081540c,South El Monte,Platanus x hispanica,London plane,Y,28,90,Severe,Severe,High,1/4/21,-118.0619862,34.04261437
+56,1,e488cbc0-0089-46ae-8522-4f3750aa94ca,South El Monte,Platanus x hispanica,London plane,Y,29,90,Low,Low,Low,1/4/21,-118.0620311,34.04233603
+57,1,d2eda183-52ca-4774-b369-80008b309d5d,South El Monte,Platanus x hispanica,London plane,Y,32,80,Moderate,Low,Low,1/4/21,-118.0619542,34.04233658
+58,1,80836899-6e92-4adc-a275-5806ff9dc0a9,South El Monte,Platanus x hispanica,London plane,Y,43,85,Moderate,Moderate,Moderate,1/4/21,-118.0609327,34.04199242
+59,1,986af1c8-1e08-452d-81ca-83003f197ae7,South El Monte,Platanus x hispanica,London plane,Y,32,75,Moderate,Moderate,Moderate,1/4/21,-118.0609205,34.04219989
+60,1,ead9e562-2d1b-4b57-8a38-a5d4d1a5c29d,South El Monte,Platanus x hispanica,London plane,Y,30,75,Low,Low,Low,1/4/21,-118.0610333,34.04217502
+61,1,f08b603d-0c44-4bbf-8f77-92ecf261cf9a,South El Monte,Platanus x hispanica,London plane,Y,29,75,Low,Low,Low,1/4/21,-118.0610513,34.04225142
+62,1,70fee101-2447-4f97-8e04-04d57794347e,South El Monte,Platanus x hispanica,London plane,Y,15,65,Low,Moderate,Low,1/4/21,-118.0610104,34.04231273
+63,1,314a8330-35b0-45d7-bf84-21505a75bd00,South El Monte,Platanus x hispanica,London plane,Y,13,65,Severe,Severe,High,1/4/21,-118.0610733,34.04229887
+64,1,c84c6a3d-708b-4c56-8da0-7585d0082456,South El Monte,Platanus x hispanica,London plane,Y,34,90,Severe,Moderate,Moderate to high,1/4/21,-118.061185,34.04226213
+65,1,8534b822-4ed1-4b43-aef6-ec257b62bb11,South El Monte,Platanus x hispanica,London plane,Y,25,85,Low,Heavy,Moderate,1/4/21,-118.061319,34.04240638
+66,1,9908335d-5654-4cd6-b403-1c3ac2cb2036,South El Monte,Platanus x hispanica,London plane,Y,35,85,Severe,Heavy,High,1/4/21,-118.0614218,34.04237784
+67,1,fb2a987c-f746-4031-b56b-b0b2f8785107,South El Monte,Platanus x hispanica,London plane,Y,38,90,Severe,Moderate,High,1/4/21,-118.0614605,34.04250288
+68,1,79c874d4-f55f-4ec9-b5f8-b6962a17827d,South El Monte,Platanus x hispanica,London plane,Y,39,90,Severe,Severe,High,1/4/21,-118.0614019,34.04259536
+69,1,24ace155-b4ba-48f8-9243-602c3fa68777,South El Monte,Platanus x hispanica,London plane,Y,45,90,Severe,Moderate,Moderate to high,1/4/21,-118.0613441,34.04274008
+70,1,119135f7-2cb5-46da-a19b-5e203909ea40,South El Monte,Platanus x hispanica,London plane,Y,35,100,Heavy,Moderate,Moderate to high,1/4/21,-118.0608884,34.04272497
+71,1,98b546e4-29fe-4b42-a565-5074cd607583,South El Monte,Platanus x hispanica,London plane,Y,8,65,Low,Severe,High,1/4/21,-118.0608322,34.04268001
+72,1,feb45a4b-9181-4edc-8c18-6b0c3eb302a2,South El Monte,Platanus x hispanica,London plane,Y,35,90,Heavy,Low,Moderate to high,1/4/21,-118.0606318,34.0427021
+73,1,477e1ec7-d58c-40de-bb6e-2f023add96eb,South El Monte,Platanus x hispanica,London plane,Y,37,90,Low,Low,Low,1/4/21,-118.0602992,34.04173814
+74,1,6ebde1b9-8949-4a45-9df5-d6cdd2f87fc7,South El Monte,Platanus x hispanica,London plane,Y,39,90,Low,Low,Low,1/4/21,-118.0606598,34.04222621
+75,1,e1316b9b-92e4-4655-8cd9-77bb3c8e79f7,South El Monte,Platanus x hispanica,London plane,Y,29,85,Severe,Heavy,High,1/4/21,-118.0607311,34.04262705
+76,1,7b55787b-fd70-4cff-b2e8-c055331cc606,South El Monte,Platanus x hispanica,London plane,Y,37,90,Severe,Heavy,High,1/4/21,-118.0607481,34.04252969
+77,1,65d0f9be-1841-4fa4-82d9-03c116d52449,South El Monte,Platanus x hispanica,London plane,Y,40,100,Low,Moderate,Low,1/4/21,-118.0609232,34.04246845
+78,1,3db50efe-3fa9-481a-a650-a64caba19b2f,South El Monte,Platanus x hispanica,London plane,Y,28,90,Moderate,Low,Low,1/5/21,-118.061147,34.04244047
+79,1,389a3ab2-b4eb-48c2-882b-005da9a3e872,South El Monte,Platanus x hispanica,London plane,Y,22,70,Severe,Severe,High,1/5/21,-118.0611213,34.04251131
+80,1,3855f18d-3303-4a6a-a7ff-b4980134c811,South El Monte,Platanus x hispanica,London plane,Y,38,90,Heavy,Moderate,Moderate to high,1/5/21,-118.0610261,34.04257122
+81,1,6a072003-a7b4-4832-b680-55e2afb96091,South El Monte,Platanus x hispanica,London plane,Y,37,80,Low,Low,Low,1/5/21,-118.0608942,34.04240958
+82,1,c3f226c7-35ca-4b60-86c0-eccc21bfe67b,South El Monte,Platanus x hispanica,London plane,Y,19,65,Low,Heavy,Moderate,1/5/21,-118.0609693,34.04244769
+83,1,3b1b7aae-86e5-4415-bba2-a0ce797ced48,South El Monte,Platanus x hispanica,London plane,Y,29,80,Low,Moderate,Low,1/5/21,-118.061048,34.04242841
+84,1,5204faa3-04bc-428e-9dee-867da29ff418,South El Monte,Platanus x hispanica,London plane,Y,34,85,Moderate,Low,Low,1/5/21,-118.0607467,34.04327398
+85,1,1f69fc42-1363-4525-9f9f-b072f755265e,South El Monte,Platanus x hispanica,London plane,Y,32,90,Low,Moderate,Low,1/5/21,-118.0608125,34.04339257
+86,1,29ef1e96-dfe6-4369-8223-697c924ea47d,South El Monte,Platanus x hispanica,London plane,Y,16,55,Low,Low,Low,1/5/21,-118.0612264,34.04412864
+87,1,e3bfbe4e-2818-430f-8643-ff0a38ab46ce,South El Monte,Platanus x hispanica,London plane,Y,15,45,Low,Low,Low,1/5/21,-118.061044,34.04408347
+88,1,266fb4ab-8aec-4e9d-bc97-434a093408ae,South El Monte,Platanus x hispanica,London plane,Y,14,55,Low,Moderate,Low,1/5/21,-118.0611211,34.04421324
+89,1,455f644d-fa0b-49b2-b0fe-e4a508ecdc5c,South El Monte,Platanus x hispanica,London plane,Y,16,60,Low,Moderate,Low,1/5/21,-118.0612362,34.04423863
+90,1,3890841a-b528-4644-a770-728e51a42783,South El Monte,Platanus x hispanica,London plane,Y,32,90,Severe,Heavy,High,1/5/21,-118.0610343,34.04445313
+91,1,d84abac5-93a9-48a2-a475-35f20b146597,South El Monte,Platanus x hispanica,London plane,Y,47,95,Severe,Heavy,High,1/5/21,-118.0611252,34.04459747
+92,1,c83cd8e0-1b9a-46e0-aba4-1f472cb208cc,South El Monte,Platanus x hispanica,London plane,Y,14,55,Low,Moderate,Low,1/5/21,-118.0605634,34.04499805
+93,1,9c6b4192-ea7c-41a8-9835-c779d113df8b,South El Monte,Platanus x hispanica,London plane,Y,14,45,Low,Low,Low,1/5/21,-118.0605727,34.04494286
+94,1,b1b8ad6e-d3b9-454e-9d56-82f46b3d3edc,South El Monte,Platanus x hispanica,London plane,Y,12,45,Heavy,Moderate,High,1/5/21,-118.0601737,34.04501565
+95,1,8f9f6ca7-5846-4f40-8a56-fc9bc67eb8d7,South El Monte,Platanus x hispanica,London plane,Y,21,55,Moderate,Low,Moderate,1/5/21,-118.0601683,34.04498349
+96,1,1b61cd4a-78c4-4b0d-8b47-00feab217ed8,South El Monte,Platanus x hispanica,London plane,Y,23,50,Moderate,Moderate,Moderate,1/5/21,-118.0601637,34.04500786
+97,1,8fbb0792-74f2-4c1e-88a9-ec25507a15d1,South El Monte,Platanus x hispanica,London plane,Y,41,55,Heavy,Moderate,High,1/5/21,-118.0603485,34.04468725
+98,1,ef9312bf-7e70-4acf-8d66-d174a32fb636,South El Monte,Platanus x hispanica,London plane,Y,28,80,Moderate,Moderate,Low,1/5/21,-118.0601296,34.04450899
+99,1,07a36759-c45b-442d-9c7f-4d6044fcb53e,South El Monte,Platanus x hispanica,London plane,Y,30,85,Severe,Moderate,High,1/5/21,-118.0603012,34.04440061
+100,1,12f37183-7a1e-4b60-a616-a6fa5c9e1773,South El Monte,Platanus x hispanica,London plane,Y,31,80,Low,Moderate,Low,1/5/21,-118.0604425,34.0443541
+101,1,3e772986-6845-429b-81c1-4f2ec5718eb2,South El Monte,Platanus x hispanica,London plane,Y,52,85,Low,Low,Low,1/5/21,-118.0606194,34.04435527
+102,1,e4a17be5-49ef-4eaa-bbf5-c32376838799,South El Monte,Platanus x hispanica,London plane,Y,45,95,Moderate,Heavy,Moderate,1/5/21,-118.0605495,34.044257
+103,1,62df6124-12de-4ea8-b6b7-bd162d50edca,South El Monte,Platanus x hispanica,London plane,Y,31,50,Low,Low,Low,1/6/21,-118.0606977,34.04431906
+104,1,638458f1-a54d-4162-a8fd-7f4f89d718a1,South El Monte,Platanus x hispanica,London plane,Y,39,80,Low,Moderate,Low,1/6/21,-118.0606959,34.04423718
+105,1,ff568032-2d05-46a1-88c0-97fe0dbf2660,South El Monte,Platanus x hispanica,London plane,Y,30,80,Low,Moderate,Low,1/6/21,-118.0606991,34.04414687
+106,1,9724474f-33df-4df1-9f2a-8c0e62a48e8e,South El Monte,Platanus x hispanica,London plane,Y,10,45,Low,Moderate,Low,1/6/21,-118.0607787,34.0441667
+107,1,c188ae6f-75bf-483a-9378-e4388287f358,South El Monte,Platanus x hispanica,London plane,Y,28,70,Low,Moderate,Low,1/6/21,-118.0602055,34.0453073
+108,1,fa79d6d4-7733-44e3-a28c-2db227709186,South El Monte,Platanus x hispanica,London plane,Y,30,80,Moderate,Low,Low,1/6/21,-118.0600346,34.04580968
+109,1,fca16dd2-a710-4ebb-86bd-a3c295b91f71,South El Monte,Platanus x hispanica,London plane,Y,12,40,Low,Severe,Low,1/6/21,-118.0603796,34.04596791
+110,1,179f3acc-325b-4e6d-8d6c-e6bfb05c83e5,South El Monte,Platanus x hispanica,London plane,Y,13,35,Low,Severe,Low,1/6/21,-118.0604595,34.04597227
+111,1,d0c0da54-eb0f-4617-85c9-0e2357052188,South El Monte,Platanus x hispanica,London plane,Y,29,80,Heavy,Moderate,High,1/6/21,-118.0604201,34.04590458
+112,1,76b50620-c889-46fb-8cad-1fcc35e8fc22,South El Monte,Platanus x hispanica,London plane,Y,24,65,Low,Low,Low,1/6/21,-118.0604088,34.04585979
+113,1,3c2a2b77-67d9-4a44-ac11-ddf2f05006aa,South El Monte,Platanus x hispanica,London plane,Y,12,45,Severe,Dead,High,1/6/21,-118.0604303,34.04576484
+114,1,8dc1ef32-8845-4082-8b6f-da194c9b831b,South El Monte,Platanus x hispanica,London plane,Y,15,25,Moderate,Severe,High,1/6/21,-118.0604552,34.04574024
+115,1,9bbc31d5-a579-40a6-b32c-9450032f053a,South El Monte,Platanus x hispanica,London plane,Y,29,60,Severe,Heavy,High,1/6/21,-118.0605034,34.04567268
+116,1,ed34bcda-2ba1-4bd3-b3fd-00ca27ffd138,South El Monte,Platanus x hispanica,London plane,Y,28,75,Moderate,Low,Low,1/6/21,-118.0605844,34.04556406
+117,1,4227494a-03de-4ae5-b779-fd74fa8b0b04,South El Monte,Platanus x hispanica,London plane,Y,16,45,Low,Heavy,Moderate,1/6/21,-118.060502,34.04556721
+118,1,221d4fc2-f6f6-4247-932a-95eb39587999,South El Monte,Platanus x hispanica,London plane,Y,13,45,Low,Low,Low,1/6/21,-118.0605491,34.0454494
+119,1,57df9b25-f111-4e30-bab2-40cdc6a2a373,South El Monte,Platanus x hispanica,London plane,Y,25,70,Low,Low,Low,1/6/21,-118.0604968,34.04538335
+120,1,85f61d6a-d809-48af-86db-f47e942bff87,South El Monte,Platanus x hispanica,London plane,Y,22,65,Low,Low,Low,1/6/21,-118.0605216,34.04530822
+121,1,9e91fd8a-577f-4af4-85d9-18307fb4db9d,South El Monte,Platanus x hispanica,London plane,Y,24,75,Low,Low,Low,1/6/21,-118.0604916,34.04528
+122,1,23f8bf05-5f5a-4130-9ab3-cb40581d2d30,South El Monte,Platanus x hispanica,London plane,Y,13,60,Severe,Heavy,High,1/6/21,-118.0605902,34.04519186
+123,1,7c379546-4b46-4b49-908e-8e5d44c0b00c,South El Monte,Platanus x hispanica,London plane,Y,20,75,Low,Moderate,Low,1/11/21,-118.0612697,34.04540259
+124,1,e3b8f60f-ee00-4444-ad1b-eb585fad2520,South El Monte,Platanus x hispanica,London plane,Y,29,75,Moderate,Moderate,Moderate,1/11/21,-118.0614091,34.04562293
+125,1,d49f9fee-929f-4183-b4e2-534fd3f57589,South El Monte,Platanus x hispanica,London plane,Y,27,85,Low,Moderate,Low,1/11/21,-118.0614694,34.04548224
+126,1,723f1a64-f899-4726-976c-a47fb82554b2,South El Monte,Platanus x hispanica,London plane,Y,19,70,Low,Moderate,Low,1/11/21,-118.0618449,34.04545431
+127,1,1b57b61b-ead6-4058-a9e5-e61de0fb4bfc,South El Monte,Platanus x hispanica,London plane,Y,29,50,Severe,Severe,High,1/11/21,-118.0619395,34.04541175
+128,1,,South El Monte,Platanus x hispanica,London plane,Y,18,40,Severe,Dead,High,,,
+129,1,c53d9996-46f0-48d0-acdb-dfecbf0f8cf1,South El Monte,Platanus x hispanica,London plane,Y,27,65,Severe,Severe,High,1/11/21,-118.0620858,34.04548098
+130,1,2fcf07bc-278f-4629-b036-cb1ec8be07a0,South El Monte,Platanus x hispanica,London plane,Y,22,65,Low,Moderate,Low,1/11/21,-118.0621764,34.04545484
+131,1,02c0a565-9608-4caf-8787-b036d973c2b7,South El Monte,Platanus x hispanica,London plane,Y,18,55,Low,Heavy,High,1/11/21,-118.0621921,34.04555665
+132,1,96b24ed4-ec4a-4163-9ec6-c17b09d144f6,South El Monte,Platanus x hispanica,London plane,Y,28,75,Heavy,Moderate,Moderate to high,1/11/21,-118.0624962,34.04553668
+133,1,e6c3645f-3a11-4369-832b-a0db3722ef08,South El Monte,Platanus x hispanica,London plane,Y,18,70,Moderate,Moderate,Low,1/11/21,-118.0624559,34.04562153
+134,1,9c70327e-3592-4cc0-bffd-c04a452480df,South El Monte,Platanus x hispanica,London plane,Y,,95,Moderate,Low,Low,1/11/21,-118.0623553,34.04577706
+135,1,0680e189-d92b-4343-9281-34d6b0094b35,South El Monte,Platanus x hispanica,London plane,Y,28,70,Low,Moderate,Low,1/11/21,-118.0625175,34.04568925
+136,1,1e9a8afb-f0ae-4a22-9348-ea72e6858cc6,South El Monte,Platanus x hispanica,London plane,Y,16,50,Low,Heavy,Moderate,1/11/21,-118.062522,34.04575773
+137,1,9d3aa015-3fe5-48b7-91c8-86aab35d3ed6,South El Monte,Platanus x hispanica,London plane,Y,19,40,Low,Moderate,Low,1/11/21,-118.0626536,34.04577772
+138,1,1daa56cb-987e-49fd-b41f-fc510e9ae822,South El Monte,Platanus x hispanica,London plane,Y,12,25,Low,Low,Low,1/11/21,-118.0612263,34.04740623
+139,1,cd1709da-fe0c-4aa9-a4de-66abbf66a04f,South El Monte,Platanus x hispanica,London plane,Y,12,25,Moderate,Low,Moderate,1/11/21,-118.0611485,34.04750593
+140,1,4bfad54d-6571-4001-9b0c-fda3519a94aa,South El Monte,Platanus racemosa,California sycamore,Y,9,25,Moderate,Low,Moderate,1/11/21,-118.0611631,34.04783174
+141,1,34ee33c4-d5e1-48d7-b5d9-1baffe2bc063,South El Monte,Platanus x hispanica,London plane,Y,30,90,Heavy,Moderate,Moderate to high,1/12/21,-118.062734,34.04558839
+142,1,6171a2f9-7286-4efc-a38e-a954a00f9f1a,South El Monte,Platanus x hispanica,London plane,Y,14,75,Low,Heavy,Moderate,1/12/21,-118.0627157,34.04587612
+143,1,5a0abf10-bd20-41a8-900b-01a519a33202,South El Monte,Platanus x hispanica,London plane,Y,28,85,Severe,Severe,High,1/12/21,-118.0628831,34.04600886
+144,1,0f132d96-3d82-4b67-83ff-0d4bf17a998f,South El Monte,Platanus racemosa,California sycamore,Y,12,20,Heavy,Moderate,High,1/12/21,-118.060753,34.04681598
+145,1,d3b1db93-b947-44d1-a571-29245aa03281,South El Monte,Platanus racemosa,California sycamore,Y,7,20,Low,Low,Low,1/12/21,-118.0610208,34.04712442
+146,1,d7b681bc-dbdb-4353-a7c0-33fbe74e148d,South El Monte,Ricinus communis,Castorbean,Y,4,10,Heavy,,High,1/12/21,-118.0582603,34.04330555
+147,1,22472b0a-98f6-4bab-8d3e-c00b97f38546,South El Monte,Platanus racemosa,California sycamore,Y,36,85,Heavy,Heavy,High,1/12/21,-118.0580383,34.04456417
+148,1,,South El Monte,Platanus x hispanica,California sycamore,Y,35,90,Heavy,Heavy,High,,,
+149,1,d2a90d7e-90b2-4205-b18b-22c13b6aa2d9,South El Monte,Ailanthus altissima,Tree of heaven,N,12,25,Low,Heavy,Moderate to high,1/12/21,-118.0582937,34.04411555
+150,1,d770220b-86b1-4e23-a18a-71d5844510be,South El Monte,Platanus x hispanica,London plane,Y,29,70,Moderate,Moderate,Moderate,1/14/21,-118.0589914,34.04223057
+151,1,ed86066f-4423-464a-8a57-89c19b30b4cf,South El Monte,Platanus x hispanica,London plane,Y,25,60,Low,Moderate,Low,1/14/21,-118.0588387,34.04203335
+152,1,c32c4834-bae5-412d-bf81-fb5926343a9b,South El Monte,Platanus x hispanica,London plane,Y,27,75,Moderate,Moderate,Low,1/14/21,-118.0587746,34.04188609
+153,1,2c0838b8-068f-4252-a04c-c725eeff3f7f,South El Monte,Platanus x hispanica,London plane,Y,30,75,Low,Moderate,Low,1/14/21,-118.058719,34.04180579
+154,1,27ec635d-adcb-49e6-bef6-df821a62af92,South El Monte,Platanus x hispanica,London plane,Y,29,75,Low,Moderate,Low,1/14/21,-118.0585409,34.04164487
+155,1,d7a6f5c9-460f-4be8-8e77-eff2501b6f95,South El Monte,Platanus x hispanica,London plane,Y,30,70,Moderate,Moderate,Moderate,1/14/21,-118.0590461,34.04207054
+156,1,f3abac62-221e-466b-b14e-e14b8f084503,South El Monte,Platanus x hispanica,London plane,Y,31,70,Low,Moderate,Low,1/14/21,-118.0590497,34.04200711
+157,1,650ecc28-f343-4ab4-8f43-9c9ac55bbaf4,South El Monte,Platanus x hispanica,London plane,Y,29,70,Severe,Severe,High,1/14/21,-118.0589596,34.04188954
+158,1,c2345b2b-ed89-4532-a393-e16dc334e1cd,South El Monte,Platanus x hispanica,London plane,Y,24,75,Low,Low,Low,1/14/21,-118.0589129,34.04181513
+159,1,5f8d057f-bfd8-4b9d-beb1-390de42d2840,South El Monte,Platanus x hispanica,London plane,Y,32,75,Low,Moderate,Low,1/14/21,-118.0590355,34.04166227
+160,1,87b4f33b-d24f-485b-99a8-7f8ccf637467,South El Monte,Platanus x hispanica,London plane,Y,11,45,Low,Low,Low,1/14/21,-118.0588849,34.04172409
+161,1,e6e6471a-ca58-4c99-8bf7-9c652f817c41,South El Monte,Platanus x hispanica,London plane,Y,13,60,Low,Moderate,Low,1/14/21,-118.0588435,34.04177287
+162,1,16e3b7f9-b09d-4549-b056-9fe5a480adb8,South El Monte,Platanus x hispanica,London plane,Y,17,70,Low,Moderate,Low,1/14/21,-118.0588776,34.04181675
+163,1,cf9a08d2-e170-426c-9b56-2720165fd752,South El Monte,Platanus x hispanica,London plane,Y,26,60,Low,Moderate,Low,1/14/21,-118.0588381,34.04162803
+164,1,678f7662-52f4-45e1-a499-501a423b4bf2,South El Monte,Platanus x hispanica,London plane,Y,25,75,Severe,Dead,High,1/14/21,-118.0587841,34.04165342
+165,1,0d1c67f1-a8c2-4ed5-a49c-995c39506b93,South El Monte,Platanus x hispanica,London plane,Y,29,65,Low,Moderate,Low,1/14/21,-118.0588208,34.04156687
+166,1,e361ae63-cc93-4dfb-87bf-7c7dcf7ba301,South El Monte,Platanus x hispanica,London plane,Y,18,75,Low,Moderate,Low,1/14/21,-118.0587451,34.0415466
+167,1,99fa1a92-2119-4fa8-bd95-da7cdd583c52,South El Monte,Platanus x hispanica,London plane,Y,27,80,Low,Moderate,Low,1/14/21,-118.0586926,34.04155023
+168,1,d267d44f-4c3a-4c7e-853f-ac758a279b5b,South El Monte,Platanus x hispanica,London plane,Y,22,65,Low,Moderate,Low,1/14/21,-118.0587659,34.04146847
+169,1,172da169-0727-4404-a82a-d88022787f09,South El Monte,Platanus x hispanica,London plane,Y,29,80,Low,Moderate,Low,1/14/21,-118.058375,34.04139377
+170,1,914f9f62-9fea-4027-a567-9ccd0b2ba723,South El Monte,Platanus x hispanica,London plane,Y,34,75,Moderate,Heavy,Moderate,1/14/21,-118.0579711,34.04136428
+171,1,f8869ce4-9149-43a4-9521-a0a27d052923,South El Monte,Platanus x hispanica,London plane,Y,27,70,Low,Heavy,Moderate,1/14/21,-118.0578417,34.04137324
+172,1,38a11f7e-ce43-4218-a9e1-bb47d21a4de0,South El Monte,Platanus x hispanica,London plane,Y,27,65,Severe,Dead,High,1/14/21,-118.0577599,34.04136895
+173,1,51cf50e2-9c89-492b-9d24-83c069a082f6,South El Monte,Platanus x hispanica,London plane,Y,12,35,Moderate,Moderate,Moderate,1/14/21,-118.0576911,34.04149537
+174,1,f83f3d1d-9896-4617-8e44-2697a0d57ee7,South El Monte,Platanus x hispanica,London plane,Y,27,75,Moderate,Moderate,Moderate,1/14/21,-118.0576387,34.04148156
+175,1,c52c1849-32dc-4297-8d1d-a9bc54be7654,South El Monte,Platanus x hispanica,London plane,Y,12,50,Low,Heavy,Low,1/14/21,-118.057679,34.04150638
+176,1,71cd0841-6dc6-44ac-87ce-ffb806f728ca,South El Monte,Platanus x hispanica,London plane,Y,26,85,Heavy,Moderate,High,1/14/21,-118.0576083,34.04164756
+177,1,b3450c8a-6284-418f-a1c6-88a5f4a942ed,South El Monte,Platanus x hispanica,London plane,Y,20,75,Low,Moderate,Low,1/14/21,-118.0575529,34.04155931
+178,1,719a66de-1a8a-4744-b003-1c3401b98e0f,South El Monte,Platanus x hispanica,London plane,Y,27,75,Moderate,Moderate,Moderate,1/14/21,-118.0574226,34.04163568
+179,1,6509e394-2d8a-4009-bf11-1c16373c8323,South El Monte,Platanus x hispanica,London plane,Y,16,65,Moderate,Heavy,Moderate to high,1/14/21,-118.0574833,34.041669
+180,1,61c29765-18ed-45d4-ba6b-d40c468734b8,South El Monte,Platanus x hispanica,London plane,Y,14,35,Low,Moderate,Low,1/14/21,-118.057545,34.04173644
+181,1,745adcc5-6b1b-436f-b3e0-8cfcc7c10a51,South El Monte,Platanus x hispanica,London plane,Y,10,35,Moderate,Heavy,High,1/14/21,-118.0573464,34.04188677
+182,1,0037f573-3653-44af-820e-a779f420cb13,South El Monte,Platanus x hispanica,London plane,Y,5,20,Low,Low,Low,1/19/21,-118.0566983,34.04105055
+183,1,6f7e4ea2-776c-4dd6-93fc-7034dddda463,South El Monte,Populus fremontii,Fremont cottonwood,Y,4,25,Low,Moderate,High,1/19/21,-118.0565979,34.04110614
+184,1,a944b609-1e34-4a88-92d0-5b0879274825,South El Monte,Populus fremontii,Fremont cottonwood,Y,6,20,Moderate,Severe,High,1/19/21,-118.0557425,34.04109088
+185,1,9183a37b-74ec-461c-82ed-19c821308ed3,South El Monte,Platanus x hispanica,London plane,Y,15,50,Severe,Severe,High,1/19/21,-118.0548405,34.04151221
+186,1,2fe08851-d6dd-4219-acc2-bcd476836a40,South El Monte,Platanus x hispanica,London plane,Y,18,65,Severe,Severe,High,1/19/21,-118.0546898,34.04138494
+187,1,e0d20ea7-d185-4d96-a55c-1d08c6f214f0,South El Monte,Platanus x hispanica,London plane,Y,18,65,Severe,Moderate,High,1/19/21,-118.0544456,34.04140905
+188,1,c5c72f2c-7a5a-495a-ad64-66174e250792,South El Monte,Platanus x hispanica,London plane,Y,17,60,Severe,Severe,High,1/19/21,-118.0543894,34.04129045
+189,1,29cfe3a7-0440-4e87-ad41-d08f0d036cb3,South El Monte,Platanus x hispanica,London plane,Y,20,65,Moderate,Heavy,Moderate to High,1/19/21,-118.0543794,34.04119401
+190,1,9ac4ba22-b377-4262-a46b-671f9ad0106a,South El Monte,Populus fremontii,Fremont cottonwood,Y,5,25,Low,Moderate,High,1/19/21,-118.0541046,34.0407811
+191,1,368ddc56-b10e-4161-9c48-411885fcd900,South El Monte,Platanus x hispanica,London plane,Y,29,75,Low,Moderate,Low,1/20/21,-118.0581365,34.04145606
+192,1,613d8eb3-2d7a-4d3d-ac53-807220b3bfb9,South El Monte,Platanus x hispanica,London plane,Y,29,70,Severe,Heavy,High,1/20/21,-118.0576483,34.04187772
+193,1,1c25f527-bd41-447a-88b8-22ff6db9addd,South El Monte,Platanus x hispanica,London plane,Y,14,35,Severe,Dead,High,1/20/21,-118.0575758,34.04185893
+194,1,,South El Monte,Platanus x hispanica,London plane,Y,12,75,Severe,Heavy,High,,,
+195,1,1eca87f5-d2b4-46ff-b0bd-db36fb90e7e6,South El Monte,Platanus x hispanica,London plane,Y,35,75,Low,Moderate,Low,1/20/21,-118.0573679,34.04202776
+196,1,c6e28f61-1e02-4f97-af35-d5563824c92a,South El Monte,,Chinese elm (?),N,16,25,Severe,Dead,High,1/20/21,-118.0574588,34.04212273
+197,1,f9fe98e5-88a9-40af-9e60-a98bcf70f35e,South El Monte,Platanus x hispanica,London plane,Y,32,80,Moderate,Low,Low,1/20/21,-118.0574979,34.04214859
+198,1,e7fdb219-5f0f-435a-abf8-752fd59e03c5,South El Monte,Platanus x hispanica,London plane,Y,29,80,Severe,Heavy,High,1/20/21,-118.0573282,34.04191389
+199,1,0393e9f6-110e-4900-b80e-169637f1e630,South El Monte,Platanus x hispanica,London plane,Y,26,75,Moderate,Moderate,Moderate,1/20/21,-118.057153,34.04191039
+200,1,9fe89993-7a59-4e38-b295-68403549af61,South El Monte,Platanus x hispanica,London plane,Y,0,75,Moderate,Heavy,Moderate to High,1/20/21,-118.0571252,34.042002
+201,1,95ebc7d6-c93b-4f6c-9703-b528f61c2914,South El Monte,Platanus x hispanica,London plane,Y,28,75,Moderate,Moderate,Moderate,1/20/21,-118.0571228,34.04209261
+202,1,f1311042-1d7d-4202-9288-b82d39e164b1,South El Monte,Platanus x hispanica,London plane,Y,13,15,Severe,Severe,High,1/25/21,-118.0639875,34.04771812
+203,1,2d430939-f1b1-4c4f-8652-005789ff7556,South El Monte,Platanus x hispanica,London plane,Y,26,65,Moderate,Low,Low,1/25/21,-118.0572094,34.0429958
+204,1,053d4349-9346-41f5-9641-895c93834a4a,South El Monte,Platanus x hispanica,London plane,Y,23,70,Low,Moderate,Low,1/25/21,-118.0569982,34.04301915
+205,1,30481854-996d-48ab-9e82-5fcd299375fb,South El Monte,Platanus x hispanica,London plane,Y,14,65,Low,Moderate,Low,1/25/21,-118.0567788,34.04303559
+206,1,c09427d2-8742-4af8-b337-82de3e015cbf,South El Monte,Platanus x hispanica,London plane,Y,15,65,Low,Moderate,Low,1/25/21,-118.0567226,34.04301881
+207,1,d1e63fc5-6d78-4968-8476-1184d6928660,South El Monte,Platanus x hispanica,London plane,Y,12,55,Low,Moderate,Low,1/25/21,-118.0567028,34.04295217
+208,1,722350ac-4c76-4be1-97e4-9addbd5bdd5e,South El Monte,Platanus x hispanica,London plane,Y,22,60,Low,Moderate,Low,1/25/21,-118.0566478,34.04296695
+209,1,8b4d416d-381f-47f3-91ba-dee99ec77f17,South El Monte,Platanus x hispanica,London plane,Y,24,70,Low,Moderate,Low,1/25/21,-118.056524,34.04298955
+210,1,e0de2868-ac23-44fd-bdf6-58048fba5167,South El Monte,Platanus x hispanica,London plane,Y,27,80,Low,Low,Low,1/25/21,-118.0563428,34.04294155
+211,1,b6d3151a-3710-47c7-9707-3686362fc281,South El Monte,Platanus x hispanica,London plane,Y,35,95,Low,Low,Low,1/25/21,-118.0559012,34.04269691
+212,1,33dfda48-0654-4b1d-9995-c1e5560a38b8,South El Monte,Platanus x hispanica,London plane,Y,40,85,Moderate,Low,Low,1/25/21,-118.0557598,34.04262494
+213,1,01f83361-7cf2-4546-895d-207cec93ee79,South El Monte,Platanus x hispanica,London plane,Y,37,55,Heavy,Moderate,High,1/25/21,-118.0557261,34.0425433
+214,1,1f04c8a7-f524-4548-b544-32e0b3d37f56,South El Monte,Platanus x hispanica,London plane,Y,11,20,Severe,Dead,High,1/25/21,-118.0557378,34.04247103
+215,1,def0f205-c989-4f84-8e6b-fe3ad1abc1ff,South El Monte,Platanus x hispanica,London plane,Y,,,,,,1/25/21,-118.0558965,34.0423154
+216,1,645d801f-503d-4ccf-9139-16b9b5cb00a1,South El Monte,Platanus x hispanica,London plane,Y,15,30,Low,Moderate,Low,1/25/21,-118.0550413,34.04186903
+217,1,db35304c-41c7-4b1a-9122-cc17cbe84d31,South El Monte,Platanus x hispanica,London plane,Y,17,30,Low,Severe,High,1/25/21,-118.0550537,34.0418707
+218,1,871d0617-82aa-41eb-87bb-5ca14d97ab8e,South El Monte,Platanus x hispanica,London plane,Y,29,70,Low,Low,Low,1/25/21,-118.0546645,34.04168407
+219,1,021b0a54-e361-45d0-aac6-3d6bd43e8798,South El Monte,Platanus x hispanica,London plane,Y,25,65,Moderate,Moderate,Moderate to high,1/25/21,-118.0539878,34.04168315
+220,1,d0c876a8-820f-4e54-a505-d7e0cef8e69c,South El Monte,Platanus x hispanica,London plane,Y,21,60,Low,Moderate,Moderate to high,1/25/21,-118.0539644,34.04170102
+221,1,ebfb0b61-dcdd-4b04-bbbb-197cb5d225e2,South El Monte,Platanus x hispanica,London plane,Y,13,25,Moderate,Heavy,Low,1/25/21,-118.05393,34.04184039
+222,1,225e4e6b-951d-4589-ad9e-574fcdc764e6,South El Monte,Platanus x hispanica,London plane,Y,24,55,Severe,Dead,High,1/26/21,-118.0646462,34.04814566
+223,1,b9facca7-2afe-4fee-8ca5-f501757fcfc2,South El Monte,Platanus x hispanica,London plane,Y,36,50,Severe,Heavy,High,1/26/21,-118.0663166,34.04865755
+224,2,8783bb68-fb7c-45d9-8e03-6253ec4768b7,South El Monte,Platanus x hispanica,London plane,Y,40,80,Moderate,Moderate,,2/18/21,-118.0581616,34.04454389
+225,2,03401609-e507-4350-9c9f-f32546a12a47,South El Monte,Platanus x hispanica,London plane,Y,15,20,Severe,Moderate,High,2/18/21,-118.060731,34.04702215
+313,2,aab714be-5c00-484a-837e-096c74390ee1,South El Monte,Platanus x hispanica,London plane,Y,9,20,Severe,Moderate,High,3/4/21,-118.0607408,34.04684573
+314,2,0403bf22-6ef1-49a8-94fd-0ca895f0dda5,South El Monte,Platanus x hispanica,London plane,Y,8,25,Moderate,Moderate,High,3/4/21,-118.0607189,34.04708543
+340,2,b442e758-c895-47cd-ae09-88d76527158e,South El Monte,Platanus racemosa,California sycamore,Y,27,100,Severe,Moderate,High,3/17/21,-118.0664989,34.04875261
+341,2,bfefc81d-a01f-43bb-a0e4-b254e96002c5,South El Monte,Platanus x hispanica,London plane,Y,13,20,Severe,Dead,High,3/17/21,-118.0666618,34.04874308
+342,2,7f80df66-c8aa-41aa-ab10-8caa2bda4739,South El Monte,Platanus racemosa,California sycamore,Y,18,70,Severe,Moderate,High,3/17/21,-118.066766,34.04865342
+343,2,f3736002-6c46-42d8-af61-2fece4c0295d,South El Monte,Platanus racemosa,California sycamore,Y,17,55,Severe,Moderate,TRIM,3/17/21,-118.0669639,34.04871072
+344,2,a865a921-81de-41c7-999c-df5881dfa9d6,South El Monte,Platanus racemosa,California sycamore,Y,36,65,Severe,Heavy,TRIM,3/17/21,-118.067494,34.04883556
+345,2,fb21edac-f655-450f-8ca1-b8a0215e9a58,South El Monte,Platanus racemosa,California sycamore,Y,28,65,Severe,Severe,TRIM,3/17/21,-118.0677614,34.04900894
+346,2,ed0c1759-9f48-4af3-821e-d1d2300e1f6f,South El Monte,Platanus racemosa,California sycamore,Y,16,35,Severe,Dead,High,3/17/21,-118.0658064,34.0501931
+349,2,4471ae08-6e2c-4f74-8cd6-14fcc58abc46,South El Monte,Platanus racemosa,California sycamore,Y,40,70,,Heavy,High,3/18/21,-118.0676717,34.05030921
+350,2,a2f1e2fc-1d36-4a5a-89ee-74ef104840d6,South El Monte,Platanus racemosa,California sycamore,Y,35,50,Severe,Heavy,High,3/18/21,-118.0680801,34.05023524
+352,2,7598b35f-8703-4f97-9ca6-b892d2ee1040,South El Monte,Platanus racemosa,California sycamore,Y,27,70,Severe,Severe,High,3/18/21,-118.0683489,34.05129004
+355,2,d2cf24f6-35e2-4b07-8512-70c0de9744f3,South El Monte,Platanus racemosa,California sycamore,Y,30,14,Severe,,Infested Stump,3/22/21,-118.0687379,34.0436456
+356,2,a51638d6-994e-4f5b-a788-267c18a2bfbb,South El Monte,Platanus racemosa,California sycamore,Y,20,55,Severe,,TRIM,3/22/21,-118.0689488,34.04275464
+357,2,7ff8524e-c5ae-4988-a386-638c281a211d,South El Monte,Platanus x hispanica,London plane,Y,40,50,Severe,Heavy,High,3/22/21,-118.0693449,34.04222296
+358,2,8ed22d3f-6ef5-456b-bed0-537189e9ae7c,South El Monte,,Black locust (?),N,29,40,Severe,Moderate,High,3/22/21,-118.0693476,34.04211067
+359,2,ca16857c-5859-40fc-8cdb-c13063924a66,South El Monte,Platanus x hispanica,London plane,Y,29,55,Severe,Severe,High,3/22/21,-118.0685195,34.04985625
+360,2,26b56f77-a009-4f2e-89b3-7ba5135a6af0,South El Monte,Platanus racemosa,California sycamore,Y,41,65,Severe,Low,High,3/22/21,-118.0684431,34.0497675
+361,2,c333ac94-9bd8-4b1f-8604-8b215fea3387,South El Monte,Platanus racemosa,California sycamore,Y,32,55,Severe,Severe,High,3/22/21,-118.0683886,34.04935889
+362,2,ac643d45-e714-45e2-9e40-d6fd479a5f0e,South El Monte,Platanus racemosa,California sycamore,Y,36,70,Severe,Moderate,High,3/22/21,-118.0680594,34.04934258
+363,2,0e5588d7-45e5-4f8c-9a7e-2c1a5819d343,South El Monte,Platanus racemosa,California sycamore,Y,39,65,Severe,Heavy,TRIM,3/22/21,-118.0682726,34.04920555
+364,2,0aa9e75a-7319-42f6-976f-8d1b1e63edda,South El Monte,Platanus x hispanica,London plane,Y,16,25,Severe,Dead,High,3/22/21,-118.0671362,34.0483568
+365,2,a2484ccf-8f5e-45a6-bb5f-085a43dcb9b4,,,,,,,,,,3/23/21,-118.8835732,34.04009538
+366,2,19665d93-670e-4bc8-85ae-4255a0f5bc48,Malibu,,,,,,,,,3/23/21,-118.8864227,34.0467459
+367,2,9b69f7de-2852-4d4b-939c-120714c8dcec,Malibu,,,,,,,,,3/23/21,-118.8864807,34.04251919
+368,2,2383411d-e4f6-4110-908d-09fb1fb368cb,,,,,,,,,,3/23/21,-118.8711668,34.05443653
+369,2,dd6d9a64-1b88-4cbf-a7d9-10d90b342d54,South El Monte,Platanus racemosa,California sycamore,Y,14,30,Severe,Dead,High,3/23/21,-118.0681795,34.04274657
+370,2,f6054f3b-689e-45b0-a89c-743da95b11d0,South El Monte,Platanus racemosa,California sycamore,Y,29,65,Severe,Heavy,High,3/23/21,-118.068359,34.04251011
+371,2,9e383abd-a2ce-41fb-95d9-e7e4f0748e56,,Platanus racemosa,California sycamore,Y,,,,,,3/23/21,-118.8998855,34.07182266
+372,2,bfb39f7a-432d-4abf-8157-99af66866758,South El Monte,Platanus racemosa,California sycamore,Y,30,75,Severe,Severe,High,3/23/21,-118.068433,34.04236277
+373,2,94fcf8cc-d693-4f8a-99fa-5230fa60fff0,South El Monte,Platanus racemosa,California sycamore,Y,25,60,Severe,Severe,High,3/23/21,-118.0673364,34.04287712
+374,2,37a29cda-cb8c-4de5-9145-9acb588bde3e,South El Monte,Platanus racemosa,California sycamore,Y,37,70,Severe,Heavy,High,3/23/21,-118.0671632,34.04260585
+375,2,b54c052c-8542-45ff-b444-1f9347d77a3c,Malibu,,,,,,,,,3/23/21,-118.8918869,34.04103664
+376,2,a57416d3-bae9-49d7-97da-3bb786188175,Malibu,,,,,,,,,3/23/21,-118.8616193,34.03639536
+377,2,86c136fd-a8de-4311-95e3-c3fc1cc68481,Malibu,,,,,,,,,3/23/21,-118.8490318,34.03364338
+378,2,269706a1-b895-4d85-a0be-b6ecf97bdc10,Malibu,,,,,,,,,3/23/21,-118.8469862,34.03950165
+379,2,fedd5709-8177-4406-94e2-c235f1f893ec,South El Monte,Platanus racemosa,California sycamore,Y,17,55,Severe,Heavy,High,3/23/21,-118.0663971,34.0434476
+380,2,f9ad5a7e-154f-40f4-af50-90793713e93c,South El Monte,Platanus x hispanica,London plane,Y,17,45,Severe,Moderate,High,3/23/21,-118.0665894,34.04499865
+381,2,f1ff5afd-959d-42c7-a845-306a9c34db55,South El Monte,Platanus racemosa,California sycamore,Y,16,30,Severe,Dead,High,3/23/21,-118.0670792,34.04630755
+382,2,5d5d0703-0b6a-4480-8b89-17807f1ae363,South El Monte,Platanus racemosa,California sycamore,Y,23,55,Severe,Dead,High,3/23/21,-118.0674134,34.04636614
+383,2,9eda3270-b638-4afa-b0eb-40c5becb6fe9,South El Monte,Platanus racemosa,California sycamore,Y,27,65,Severe,Dead,High,3/23/21,-118.0672622,34.04715492
+384,2,404f3e2c-1edc-4a6c-bb79-04113c514bd5,South El Monte,Platanus racemosa,California sycamore,Y,42,70,Severe,Severe,High,3/23/21,-118.0664634,34.04448889
+419,2,d17655ed-4a71-4fa2-b7ff-64fef21dc62a,South El Monte,Platanus racemosa,California sycamore,Y,,,,,TRIM,4/5/21,-118.0652864,34.04325748
+420,2,78909cf6-0adf-45e5-89bd-e6f9bfd72527,South El Monte,Platanus x hispanica,London plane,Y,40,65,Severe,Heavy,High,4/5/21,-118.0654472,34.04335032
+421,2,9a1b483e-2db9-4cfa-9b93-fd93a9693c2a,South El Monte,Platanus racemosa,California sycamore,Y,10,45,Moderate,Severe,High,4/5/21,-118.065349,34.04362928
+422,2,a95dd924-01bb-4286-8b4f-1610f4bc8169,South El Monte,Platanus racemosa,California sycamore,Y,29,65,Severe,Severe,High,4/5/21,-118.0655494,34.04370104
+423,2,d8d5c90c-6dbe-4909-b472-8489209c1f78,South El Monte,Platanus racemosa,California sycamore,Y,14,15,Severe,Dead,High,4/5/21,-118.0649278,34.04403901
+424,2,d9138cd5-bc58-4dc5-b561-5bb7bd3b7967,South El Monte,Platanus racemosa,California sycamore,Y,34,55,Moderate,Moderate,TRIM,4/5/21,-118.0658846,34.04618062
+425,2,1b0aa92b-0361-49bf-8920-9918b9a8c043,South El Monte,Magnolia grandiflora,Southern magnolia,N,,,Low,,,4/5/21,-118.0659251,34.04676601
+428,2,1588f044-ab8e-4020-9176-3dca709180e4,South El Monte,Platanus x hispanica,London plane,Y,9,30,Moderate,Dead,Dead,4/14/21,-118.063976,34.03846488
+429,2,a75fd995-51dc-4a25-bd6b-392e1486cf8f,South El Monte,,Elm?,,,,Moderate,,,4/14/21,-118.0639056,34.03925058
+430,2,518e0383-3e92-40e8-9d10-4be97c25fcd7,South El Monte,Platanus x hispanica,London plane,Y,15,15,Severe,Dead,Dead,4/14/21,-118.0633842,34.04068263
+431,2,8f549ac2-d465-46e2-bc4d-3854bffacd1b,South El Monte,Platanus x hispanica,London plane,Y,11,15,Severe,Severe,Moderate to High,4/14/21,-118.0626702,34.04058582
+432,2,4cc48d8c-ec83-456e-98f1-f7fe27b11368,South El Monte,Platanus x hispanica,London plane,Y,35,60,Heavy,Severe,Moderate to High,4/14/21,-118.0627924,34.04045725
+433,2,f82f60a0-ad07-4359-9c9c-14b09a2dcfee,South El Monte,Platanus x hispanica,London plane,Y,20,35,Heavy,Heavy,Moderate to High,4/14/21,-118.062892,34.04057697
+435,2,81a32973-226c-403c-9772-0e37ed27a6dc,South El Monte,Platanus x hispanica,London plane,Y,40,80,Severe,Severe,High,4/14/21,-118.0631726,34.04004367
+436,2,a22421e9-fe27-4121-98ae-76c8d927ab81,South El Monte,Platanus racemosa,California sycamore,Y,12,55,Severe,Severe,High,4/14/21,-118.0632443,34.03995373
+438,2,df8ab675-ce3d-41de-86f9-b40e53177405,South El Monte,Platanus x hispanica,London plane,,15,45,Heavy,Moderate,Moderate to High,4/14/21,-118.0620499,34.03929265
+439,2,4f15319d-2c6d-412c-9a71-4e3ec3d7eb31,South El Monte,Platanus x hispanica,London plane,,40,65,Severe,Moderate,Amplifier,4/14/21,-118.0631953,34.03941635
+440,2,ae673707-0edb-4a08-99db-c889a8c84146,South El Monte,Platanus x hispanica,London plane,,34,65,Severe,Heavy,High,4/14/21,-118.0631519,34.03891676
+441,2,e6003dd0-87b0-4bb7-93eb-25f7e8b76555,South El Monte,Platanus x hispanica,London plane,,,,Severe,Severe,High,4/14/21,-118.0630459,34.03863192
+442,2,7ed151fa-97f3-47c9-99c3-1ac1635ef4cb,South El Monte,Platanus x hispanica,London plane,,19,35,Heavy,Severe,High,4/14/21,-118.0629525,34.03861137
+443,2,1b7d54e9-a562-4c2e-84c5-6d1922ca1f3f,South El Monte,Platanus x hispanica,London plane,,,,Moderate,Heavy,TRIM,4/14/21,-118.063328,34.03859528
+445,2,9d8371c5-1d02-4a79-9132-d8f66c329c9e,South El Monte,Platanus x hispanica,London plane,,36,2,Severe,,Low. Infested Stump,4/19/21,-118.0689074,34.04326731
+446,2,e20b6957-723c-48a6-9c28-f3ffddba23a6,South El Monte,Platanus x hispanica,London plane,,13,50,Severe,Dead,High,4/19/21,-118.0673317,34.04590461
+447,2,17183790-e583-4c6a-8d77-c1d085d814c4,South El Monte,Platanus x hispanica,London plane,,29,50,Severe,Heavy,Moderate to High,4/20/21,-118.0612987,34.03733985
+448,2,5a992cc4-e0fb-41ee-bf8a-644ceb747d50,South El Monte,Platanus x hispanica,London plane,,14,25,Heavy,Moderate,Moderate to High,4/20/21,-118.0600214,34.03735099
+449,2,d7e2abd6-243e-46e2-a9ea-8444af0ca38e,South El Monte,Platanus x hispanica,London plane,,14,35,Moderate,Heavy,TRIM,4/20/21,-118.0583051,34.03727989
+450,2,15c194b1-709e-43dd-945c-cd4cb62dc81c,South El Monte,Platanus x hispanica,London plane,,41,55,Moderate,Moderate,TRIM,4/20/21,-118.0578291,34.03692958
+451,2,139d12b9-1035-4ff1-a9f2-6f8df0457cda,South El Monte,Platanus x hispanica,London plane,,17,30,Moderate,Moderate,Moderate to High,4/20/21,-118.0575948,34.03678016
+452,2,3f01a33d-ada2-43f9-87ed-afe8d9278622,South El Monte,Platanus x hispanica,London plane,,19,45,Moderate,Heavy,TRIM,4/20/21,-118.0560363,34.03712434
+453,2,42e4d0b0-fa44-4a19-93fa-545ad5561c9d,South El Monte,Platanus x hispanica,London plane,,6,10,,Dead,,4/20/21,-118.056139,34.03771402
+454,2,e9503e21-94a3-43d8-b3f1-c37ccbf6ceb1,South El Monte,,London plane,,32,25,Severe,Heavy,Moderate to High,4/20/21,-118.05715,34.03898711
+455,2,f43bf266-a3ea-4ef2-878c-704d242a4f6b,South El Monte,,London plane,,15,15,Severe,Dead,Dead,4/20/21,-118.0572275,34.03902262
+456,2,0f87c87a-90f8-4101-bc82-42063acd8a53,South El Monte,,London plane,,42,75,Moderate,Low,TRIM,4/20/21,-118.0576345,34.03985532
+457,2,05c711c2-8164-4ba1-838a-e1c791b250d0,South El Monte,,London plane,,31,65,Severe,Severe,Amplifier,4/20/21,-118.0581176,34.03974852
+458,2,f3254750-322d-48ab-8375-d34677bb5c48,South El Monte,,California sycamore,,20,55,Moderate,Moderate,TRIM,5/5/21,-118.06206,34.0403555
+459,2,5ab395c8-fa43-402a-9c4d-78efb5e46862,South El Monte,,London plane,,24,30,Severe,Moderate,High,5/5/21,-118.0614297,34.04002895
+460,2,32f66c12-e0ff-4fd6-9ae0-1b46ed57d632,South El Monte,,California sycamore,,36,75,Moderate,Low,TRIM,5/5/21,-118.0611716,34.03989833
+461,2,07ddd20a-0075-42b5-9564-74311db5814a,South El Monte,,California sycamore,,20,55,Severe,Heavy,High,5/5/21,-118.0602501,34.03983169
+462,2,50c12b0f-c579-4d0f-8018-8a9929f86394,South El Monte,,California sycamore,,45,70,Moderate,Moderate,TRIM,5/5/21,-118.0602351,34.03977439
+463,2,ef0ef427-3366-4d89-95a7-e1958394c484,South El Monte,,,,12,35,Severe,Moderate,Moderate to High,5/5/21,-118.0603558,34.03957754
+464,2,754a86ae-0b9c-465a-86a9-8d075cc6effe,South El Monte,,,,36,40,Moderate,Moderate,TRIM,5/5/21,-118.0599178,34.03990044
+465,2,244d74d7-3d2a-4e86-bd62-57da1b25d1cd,South El Monte,,,,14,35,Severe,Heavy,High,5/5/21,-118.0594325,34.03889305
+466,2,7457f32a-468e-478d-9468-1180ce880a6d,South El Monte,,,,36,65,Severe,Severe,High,5/5/21,-118.0594174,34.03882496
+467,2,2a131b96-45d4-48c5-8567-c231009fe1b0,South El Monte,,,,15,35,Moderate,Moderate,TRIM,5/5/21,-118.0594042,34.03879832
+468,2,c5182184-d163-425d-b2db-060096e052e4,South El Monte,,California sycamore,,24,40,Severe,Severe,High,5/5/21,-118.0584981,34.03931461
+469,2,9b8c94c1-0504-4561-a03a-789a62b0ea0d,South El Monte,,,,19,25,Heavy,Severe,Moderate to High,7/12/21,-118.0545804,34.03891335
+470,2,d511cb03-ee32-4f77-8841-d3d4973913a1,South El Monte,,,,26,20,Severe,Heavy,High,7/12/21,-118.0554658,34.03855667
+471,2,2c0f1567-1832-4eca-918a-da8f6a93fe36,South El Monte,,,,23,25,Severe,Dead,Dead,7/12/21,-118.0562668,34.03889463
+472,2,7a869c47-17f5-428e-bdd8-74d08b08511f,South El Monte,,,,32,45,Moderate,Heavy,High,7/12/21,-118.056421,34.03902901
+473,2,4a2e9af6-4d1d-451c-8fb9-ae87f8d930ee,South El Monte,,,,27,55,Severe,Dead,Dead,7/12/21,-118.0565531,34.03879756
+474,2,58ce0611-197c-4a39-840e-a30a5170cda6,South El Monte,,,,14,15,Heavy,Severe,Moderate to High,7/13/21,-118.0557996,34.03937226
+475,2,58936f38-aa2e-4a9e-b838-3c5711ae048e,South El Monte,,,,23,35,Severe,Heavy,High,7/13/21,-118.0557044,34.03931944
+476,2,d4fc62c5-8673-4f63-b0e9-fd58e96bc1ae,South El Monte,,,,14,9,Severe,Dead,Dead,7/13/21,-118.0585547,34.03997819
+477,2,75849c0b-b29b-415c-9bff-5c1182e2d237,South El Monte,,Golden rain tree (?),,15,20,Severe,Dead,Dead,7/19/21,-118.0600158,34.03710627
+478,2,4accf121-c587-41a7-a7e2-b11e080dfcb1,South El Monte,,,,49,60,Heavy,Severe,Moderate to High,7/19/21,-118.0599778,34.036874
+479,2,c15fa364-c7d1-4d1c-84cf-96bf277885d1,South El Monte,,,,11,30,Moderate,Severe,High,7/19/21,-118.0607411,34.03639676
+480,2,90664afd-739f-4230-b016-e5d89dd3ee04,South El Monte,,,,6,15,Moderate,Heavy,Moderate to High,7/19/21,-118.0610903,34.0363338
+481,2,bc0036d3-83ae-4174-bfb3-e0b1085ed5c4,South El Monte,,,,21,55,Low,Low,TRIM,7/19/21,-118.0618316,34.03614549
+482,2,bcdb92cd-09f2-4ded-855a-64f392e36df6,South El Monte,,Chinese elm (?),,26,35,Severe,Severe,High,7/19/21,-118.0622946,34.03619056
+483,2,4c39167f-ac75-49a2-974b-a2ad94b6721d,South El Monte,,Chinese elm (?),,13,25,Severe,Dead,Dead,7/19/21,-118.0613439,34.03651841
+484,2,f571505e-5a70-4f64-9eec-ea952fc9ed46,South El Monte,,,,24,40,Low,Low,TRIM,7/19/21,-118.061069,34.03651536
+485,2,e8d703ef-4ef8-4a57-b26b-3c167c06fca0,South El Monte,,,,30,70,Low,Moderate,TRIM,7/19/21,-118.0644536,34.03404728
+486,2,368bbd42-7562-4b96-8db3-db498a544401,South El Monte,,,,47,55,Moderate,Heavy,High,7/20/21,-118.064756,34.03342598
+487,2,5e556ee6-b2b4-4ae6-8462-2463f2ddd4e5,South El Monte,,,,39,50,Moderate,Severe,Moderate to High,7/20/21,-118.059168,34.03187161
+488,2,7aecf219-e597-42ad-ad12-8afc92ce8f21,South El Monte,,,,32,35,Heavy,Heavy,High,7/20/21,-118.0589403,34.03166581
+489,2,87127b67-cbcd-48bf-abe6-cb58f6c37260,South El Monte,,,,27,65,Moderate,Severe,High,7/20/21,-118.0579098,34.03108899
+490,2,37d8280e-8238-4a2e-abe8-0825d17e6256,South El Monte,,,,28,75,Moderate,Low,TRIM,7/20/21,-118.0557901,34.03071764
+491,2,adbd4ef7-488c-4bf1-99c2-3b04da00e8e0,South El Monte,,,,26,50,Severe,Heavy,Moderate to High,7/27/21,-118.0572345,34.0354373
+492,2,228a2148-4d20-448c-b835-c84127a800a4,South El Monte,,,,28,55,Heavy,Heavy,High,7/27/21,-118.0556077,34.03504833
+493,2,b247d89f-253f-4586-ae9c-96ed2cf86f66,South El Monte,,,,19,35,Moderate,Low,TRIM,7/27/21,-118.0544114,34.03404796
+494,2,72d3e3c8-9b93-4a21-857f-8871aa36e350,South El Monte,,,,18,25,Severe,Severe,Moderate to High,7/27/21,-118.0542773,34.03415245
+495,2,f06e2959-7778-4dbc-a71c-70b294b2517c,South El Monte,,,,16,30,Severe,Dead,Dead,7/27/21,-118.0542166,34.03407882
+496,2,bfd7816f-c079-4fad-bbd5-02b9fc4df02f,South El Monte,,,,27,65,Low,Low,TRIM,7/27/21,-118.055204,34.03294659
+497,2,795965ee-5e42-4441-b073-42fe1538958c,South El Monte,,,,11,25,Severe,Dead,Dead,7/27/21,-118.0551047,34.03287553
+498,2,a653f58a-de83-4ae7-9c3b-cee4f2021e1f,South El Monte,,,,38,65,Moderate,Moderate,TRIM,7/27/21,-118.0561171,34.03255291
+499,2,72e86d73-e750-45a7-bdcc-53b0571b3bc2,South El Monte,,,,22,25,Severe,Severe,High,7/27/21,-118.05643,34.03209966
+500,2,60be9a1d-abf7-4bde-a90c-f99d2dee708f,Lakewood,Populus fremontii,Fremont cottonwood,Y,26,70,Severe,Severe,,7/28/21,-118.0943672,33.83578965
+501,2,bcc35c96-0c0a-4024-a446-fa4c7886039f,Lakewood,Populus fremontii,Fremont cottonwood,Y,29,65,Severe,Dead,,7/28/21,-118.0943235,33.83585768
+502,2,45b0f324-737c-472f-9d5d-d31a70d26364,Lakewood,Populus fremontii,Fremont cottonwood,Y,25,65,Severe,Severe,,7/28/21,-118.0943346,33.8359515
+503,2,724a6511-cd8c-46bc-9bfa-6c9cfd531baa,Lakewood,Populus fremontii,Fremont cottonwood,Y,28,65,Severe,Dead,,7/28/21,-118.0944104,33.8359082
+504,2,db521059-345b-48a8-9142-c59cd978c549,Lakewood,Populus fremontii,Fremont cottonwood,Y,29,70,Severe,Dead,,7/28/21,-118.0944104,33.8359082
+505,2,19b433c2-1bc5-465a-bc45-cd23a74f81c4,Lakewood,Populus fremontii,Fremont cottonwood,Y,29,70,Severe,Dead,,7/28/21,-118.0944107,33.83599116
+506,2,a1c24939-5381-49c4-ae6c-ec29e06a2fc9,Lakewood,Populus fremontii,Fremont cottonwood,Y,20,55,Severe,Severe,,7/28/21,-118.094636,33.83691436
+507,2,3d1f7a76-f370-4111-8c36-f111b492507b,Lakewood,Populus fremontii,Fremont cottonwood,Y,25,65,Severe,Severe,,7/28/21,-118.0946918,33.83699384
+508,2,516dba45-eb9e-4226-b561-876d4f72c956,Lakewood,Populus fremontii,Fremont cottonwood,Y,27,60,Severe,Dead,,7/28/21,-118.0950867,33.83812367
+509,2,b38dd4b9-cde5-4e60-8066-5b372d3d9b37,Lakewood,Populus fremontii,Fremont cottonwood,Y,31,55,Severe,Dead,,7/28/21,-118.0952255,33.83810769
+510,2,8bc28793-a94a-4af5-914e-62227542b2f5,Lakewood,Populus fremontii,Fremont cottonwood,Y,30,70,Severe,Severe,,7/28/21,-118.0954011,33.83877703
+511,2,b51342a1-ddf6-4255-af95-187987e4280e,Lakewood,Populus fremontii,Fremont cottonwood,Y,27,65,Severe,Dead,,8/2/21,-118.0961426,33.84023654
+512,2,7d657ba2-f0fe-4c9d-ad45-0a8ee45f7cef,Lakewood,Populus fremontii,Fremont cottonwood,Y,29,75,Severe,Dead,,8/2/21,-118.0961634,33.84038265
+513,2,33da0fec-97ce-443f-8145-92c7305bb0b2,Lakewood,Populus fremontii,Fremont cottonwood,Y,28,65,Severe,Severe,,8/2/21,-118.0960978,33.84032233
+514,2,32bb804f-b7c1-4b23-b068-4e54c02bbfff,Lakewood,Platanus racemosa,California sycamore,Y,23,30,Severe,Severe,,8/2/21,-118.0962826,33.84050693
+515,2,1b12e426-6b2b-425f-8e3d-61aa8c6397c2,South El Monte,,,,14,55,Severe,Dead,High,8/3/21,-118.0518846,34.03202915
+516,2,d36aa5d3-e6ae-4058-9793-877669e43406,South El Monte,,,,35,30,Moderate,Moderate,Moderate to High,8/3/21,-118.052097,34.0320367
+517,2,34000e66-9d57-4085-a7c1-db8b0095b3ae,South El Monte,,,,16,25,Low,Moderate,Trim,8/3/21,-118.0526744,34.032909
+518,2,18775da6-ec4f-4c5e-a044-59f1da334559,South El Monte,,,,18,40,Moderate,Moderate,Trim,8/3/21,-118.0528464,34.03321934
+519,2,8659b763-2f21-43fe-9d9c-ed7ac8ba0cbc,South El Monte,,,,17,55,Severe. Amplifier,Moderate,Amplifier,8/9/21,-118.0520459,34.03473135
+520,2,9241295e-0535-4c90-ace7-59a36ed89335,South El Monte,,,,11,35,Severe,Dead,High,8/9/21,-118.0521387,34.03482902
+521,2,7ee9bbe8-9410-498d-8ef3-4e50f8b1c422,South El Monte,,,,19,35,Moderate,Heavy,High,8/9/21,-118.0518587,34.03516203
+522,2,8ed91e2a-bc31-4617-9897-14dbf69fc132,South El Monte,,,,16,40,Severe,Dead,High,8/9/21,-118.0521135,34.03530384
+523,2,c93d2099-e479-4784-83e4-8b47c90aadb5,South El Monte,,,,21,40,Severe,Severe,Amplifier,8/9/21,-118.052809,34.0354372
+524,2,6bac2244-1fc6-45ad-84e6-ce607f27a557,South El Monte,,,,19,35,Moderate,Severe,High,8/9/21,-118.051508,34.03566428
+525,2,ea78cb48-a700-4b55-a4ef-05a480a56808,South El Monte,,,,17,45,Severe,Severe,High,8/16/21,-118.0507388,34.03718277
+526,2,7c6a410e-4e17-491b-b0de-3f4e47de32ac,South El Monte,,,,24,70,Severe,Severe,High,8/16/21,-118.0499031,34.03556733
+527,2,eb66c7e0-21db-4e65-ad2a-d89810fa140e,South El Monte,,,,,,,,Amplifier on other side of school fence,8/16/21,-118.0488359,34.03496559
+528,2,d42fe026-cbe9-4e34-870d-37f7f87b07f0,South El Monte,,,,20,40,Moderate,Moderate,Trim,8/16/21,-118.0495688,34.03462833
+529,2,58072324-e475-4e25-932c-847106fab9d5,South El Monte,,,,27,35,Severe,Dead,High,8/16/21,-118.0491503,34.033818
+530,2,2c4192c3-f88e-4634-aba4-0e114b8c66a4,South El Monte,,,,27,35,Severe,Severe,High,8/16/21,-118.048478,34.033429
+531,2,291a8b69-85ff-47a9-9864-3cc36f73d793,South El Monte,,,,31,60,Severe,Dead,High,8/19/21,-118.0446406,34.03466288
+532,2,a281abd3-101f-486f-9edb-809466b30299,South El Monte,,,,14,45,Severe,Severe,High,8/19/21,-118.0449816,34.03441686
+533,2,66b1f3fb-5c24-4515-96b3-86607cf0c80f,South El Monte,,,,,,,,High,8/19/21,-118.0448071,34.034282
+538,2,ea338592-cf4f-4d5e-af97-4b8ff67cb98e,Pasadena,,Black willow,Y,13,30,Moderate,,Monitor,9/20/21,-118.1723905,34.19391868
+541,2,8ef7af37-30e2-4e87-97fa-e94c4e24d8fc,Pasadena,Populus fremontii,Fremont cottonwood,Y,,,Heavy,,Remove 3 small cottonwoods,9/20/21,-118.1752299,34.1916586
+542,2,b4e6e56f-5f8c-4c2c-a24c-5dbd2774af7f,South El Monte,Platanus x hispanica,London plane,Y,28,70,Low,Heavy,Trim,9/21/21,-118.063151,34.03935006
+559,2,c0ca03f9-bb67-4c80-b0f0-56515bf9551b,Pasadena,,Black willow,Y,6,35,Severe,Severe,Amplifier,9/27/21,-118.1744484,34.19321886
+560,2,e39c4f34-c59d-4e05-abc3-e70fa288bb6b,Pasadena,,Black willow,Y,9,40,Severe,Severe,Amplifier,9/29/21,-118.1740602,34.19324788
+568,2,552e89ce-479b-4b0d-9f24-57da1595f0a1,Pasadena,,Black willow,Y,,,Moderate,,Monitor,10/13/21,-118.1769705,34.18804159
+569,2,b1922f69-2f62-427c-a016-d42640aa0ba4,Pasadena,,Black willow,Y,22,45,Moderate,Moderate,Monitor,10/20/21,-118.1758144,34.19082533
+570,2,7a0657ff-a7ed-4681-9f5d-c48079aa8463,Pasadena,,Black willow,Y,9,25,Moderate,Low,Monitor,10/20/21,-118.1771497,34.18972835
+572,2,307a73e2-8dff-4c89-aa92-cf403e2ec794,Pasadena,Platanus racemosa,California sycamore,Y,,,Low,,4 small sycs to monitor,10/27/21,-118.1773353,34.18863493
+573,2,7d34790c-9114-4b43-b379-cdf18d6a2251,Pasadena,,Black willow,Y,,,Moderate,,2 willows to monitor,10/27/21,-118.1772683,34.1878612
+574,2,163b99e8-aa0b-4980-b18b-8dc3b1f8c27f,Pasadena,Platanus racemosa,California sycamore,Y,27,55,Moderate,Low,Monitor,10/27/21,-118.1771122,34.1876709
+588,2,a2901e5a-b4f9-49ec-bc47-7d091aba1255,Pasadena,Populus fremontii,Fremont cottonwood,Y,24,40,Heavy,,Trim,12/14/21,-118.170929,34.1912513
+589,3,"19TP50001112, 19TP50001113, 19TP50001114",Topanga,Platanus racemosa,California sycamore,Y,,,Low,1-10%,,6/17/21,-118.627802,34.105289
+590,3,,Encino,Parkinsonia aculeata,Palos verdes,Y,,,Low,1-10%,,6/17/21,-118.524877,34.182132
+591,3,19TP50001139,Los Angeles,Aesculus californica,California Buckeye,N,,,Low,1-10%,,7/26/21,-118.46143,34.07797
+592,3,,Los Angeles,Platanus racemosa,California sycamore,Y,,,Low,1-10%,,7/26/21,-118.43494,34.074821
+593,3,,Los Angeles,Acer palmatum,Japanese maple,N,,,Low,1-10%,,7/26/21,-118.268134,34.102043
+594,3,,Los Angeles,Platanus racemosa,California sycamore,Y,,,Severe,>30%,,7/26/21,-118.429405,34.072909
+595,3,,Studio City,Platanus racemosa,California sycamore,Y,,,Severe,>30%,,7/26/21,-118.394455,34.144486
+596,3,,Calabasas,Platanus x hispanica,London plane,Y,,,Low,1-10%,,7/26/21,-118.640231,34.150446
+597,3,,Burbank,,Avocado,N,,,Low,1-10%,,7/26/21,-118.317065,34.106736
+598,3,,Los Angeles,Platanus x hispanica,London plane,Y,,,Low,1-10%,,7/26/21,-118.350077,34.080652
+599,3,,Cerritos,Platanus x hispanica,London plane,Y,,,Severe,Dead,,7/26/21,-118.108295,33.864136
+600,3,,Malibu,Platanus racemosa,California sycamore,Y,,,Moderate,1-10%,,7/26/21,-118.81317,34.025911
+601,3,,Glendale,Platanus racemosa,California sycamore,Y,,,Severe,>30%,,7/26/21,-118.258478,34.226101
+602,3,,Sherman Oaks,Platanus x hispanica,London plane,Y,,,Severe,>30%,,7/26/21,-118.426867,34.170992
+603,3,,Topanga,Platanus racemosa,California sycamore,Y,,,Moderate,1-10%,,7/26/21,-118.629212,34.110657
+604,3,,Studio City,Populus fremontii,Fremont cottonwood,Y,,,Moderate,1-10%,,7/26/21,-118.395352,34.146302
+605,3,19TP50000844,,Platanus x hispanica,London plane,Y,,,Heavy,20-30%,,12/30/20,-118.203401,34.100101
+606,3,19TP50000839,Agoura Hills,Platanus racemosa,California sycamore,Y,,,Low,1-10%,,12/17/20,-118.739033,34.146581
+607,3,,Calabasas,Salix laevigata,Red willow,Y,,,Heavy,>30%,,12/17/20,-118.6162933,34.144019
+608,3,,San Dimas,Platanus x hispanica,London plane,Y,,,Severe,Dead,,12/17/20,-117.806749,34.111714
+609,3,,Calabasas,Platanus x hispanica,London plane,Y,,,Low,1-10%,,12/17/20,-118.710833,34.142722
