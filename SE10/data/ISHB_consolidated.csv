@@ -1,4 +1,4 @@
-﻿ID,Data Set,GlobalID,CITY,HOST_LATIN_NAME,HOST_COMMON_NAME,REPRODUCTIVE_HOST,Diameter at Breast Hight_INCHES,HEIGHT_FEET,INFESTATION_LEVEL,DIEBACK,PRIORITY_FOR_REMOVAL,Sample Date,x,y
+ID,Data Set,GlobalID,CITY,HOST_LATIN_NAME,HOST_COMMON_NAME,REPRODUCTIVE_HOST,Diameter at Breast Hight_INCHES,HEIGHT_FEET,INFESTATION_LEVEL,DIEBACK,PRIORITY_FOR_REMOVAL,Sample Date,x,y
 1,1,9f70155b-0869-4558-a797-99d6ce97c4f2,South El Monte,Platanus x hispanica,London plane,Y,14,30,Moderate,Moderate,Moderate,12/1/20,-118.0638211,34.04649836
 2,1,b83e919e-7168-4c78-909e-f81c991415d3,South El Monte,Platanus x hispanica,London plane,Y,23,120,Heavy,Low,Moderate to high,12/1/20,-118.0637685,34.04620443
 3,1,b59163fc-c6d7-4d00-bc26-a13d9a784792,South El Monte,Platanus x hispanica,London plane,Y,12,30,Low,Low,Low,12/1/20,-118.063848,34.04588088
@@ -361,7 +361,7 @@
 516,2,d36aa5d3-e6ae-4058-9793-877669e43406,South El Monte,,,,35,30,Moderate,Moderate,Moderate to High,8/3/21,-118.052097,34.0320367
 517,2,34000e66-9d57-4085-a7c1-db8b0095b3ae,South El Monte,,,,16,25,Low,Moderate,Trim,8/3/21,-118.0526744,34.032909
 518,2,18775da6-ec4f-4c5e-a044-59f1da334559,South El Monte,,,,18,40,Moderate,Moderate,Trim,8/3/21,-118.0528464,34.03321934
-519,2,8659b763-2f21-43fe-9d9c-ed7ac8ba0cbc,South El Monte,,,,17,55,Severe. Amplifier,Moderate,Amplifier,8/9/21,-118.0520459,34.03473135
+519,2,8659b763-2f21-43fe-9d9c-ed7ac8ba0cbc,South El Monte,,,,17,55,Severe,Moderate,Amplifier,8/9/21,-118.0520459,34.03473135
 520,2,9241295e-0535-4c90-ace7-59a36ed89335,South El Monte,,,,11,35,Severe,Dead,High,8/9/21,-118.0521387,34.03482902
 521,2,7ee9bbe8-9410-498d-8ef3-4e50f8b1c422,South El Monte,,,,19,35,Moderate,Heavy,High,8/9/21,-118.0518587,34.03516203
 522,2,8ed91e2a-bc31-4617-9897-14dbf69fc132,South El Monte,,,,16,40,Severe,Dead,High,8/9/21,-118.0521135,34.03530384
