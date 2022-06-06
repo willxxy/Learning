@@ -1,0 +1,77 @@
+\documentclass [12pt, letterpaper] {article}
+\usepackage{booktabs}
+\usepackage{biblatex}
+\addbibresource{references.bib}
+\title{Kidney Semantic Segmentation using U-Net}
+\author{William Han \\ University of California, Irvine}
+\date{May 14, 2022}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+
+\section{Methods and Materials }
+
+
+
+\section{Results}
+
+\begin{table}[h!]
+\centering
+
+\begin{tabular}{||c c c c c ||} 
+ \hline
+ Models & Train Accuracy & Train Specificity & Train & 75th percentile \\ [0.5ex] 
+ \hline
+ 2D Classification & 0.954 & 0.964 & 0.950 & 0.973 \\ 
+ 2D Segmentation  & \textbf{0.964} & \textbf{0.970} & \textbf{0.961} & \textbf{0.975}\\
+ 2D Custom Classification & 0.950 & 0.964 & 0.946 & 0.971\\
+
+ \hline
+\end{tabular}
+
+\caption{Statistics for Training Test Set}
+\label{table:data}
+\end{table}
+
+\begin{table}[h!]
+\centering
+
+\begin{tabular}{||c c c c c ||} 
+ \hline
+ Models & Mean & Median & 25th percentile & 75th percentile \\ [0.5ex] 
+ \hline
+ 2D  & 0.923 & \textbf{0.956} & 0.912 & \textbf{0.969}\\ 
+ 3D  & \textbf{0.933} & \textbf{0.956} & \textbf{0.936} &0.967 \\
+ Custom & 0.931 & \textbf{0.956} &  0.926 & \textbf{0.969}\\
+
+ \hline
+\end{tabular}
+
+\caption{Statistics for Validation Test Set}
+\label{table:data}
+\end{table}
+
+Note that during validation, the median for all three models were synonymous. Additionally, the 75th percentile for the 2D U-Net model and the custom U-Net model were the same. Overall, it seems that that 3D U-Net model generally outperforms the others. 
+
+\section{Discussion}
+The results were not expected because I hypothesized that the custom model would be best in performance. The biggest difference between the three different algorithms is the input dimensionality. The Squeeze and Excite model was given 2 dimensional data (1 x 96 x 96), therefore we cannot say how well it would perform on 96 x 96 x 96 images. I chose the Squeeze and Excite model due to its scalability in terms of feature maps. It would be interesting to experiment on 3D images for the custom model for future work. 
+
+
+\begin{thebibliography}{2}
+\bibitem{kits}
+“The 2021 Kidney Tumor Segmentation Challenge.” \emph{Kits21}, kits21.kits-challenge.org. Accessed 5 May 2022.
+
+\bibitem{unet}
+“U-Net.” \emph{Wikipedia}, 3 Aug. 2020, en.wikipedia.org/wiki/U-Net. Accessed 5 May 2022.
+
+\bibitem{se}
+Hu, Jie, et al. “Squeeze-And-Excitation Networks.” ArXiv:1709.01507, 16 May 2019, arxiv.org/abs/1709.01507. Accessed 5 May 2022.
+\end{thebibliography}
+
+\end{document}
+
