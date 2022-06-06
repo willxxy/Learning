@@ -1,0 +1,4 @@
+,train accuracy,train sens,train spec,train PPV,train NPV,valid accuracy,valid sens,valid spec,valid PPV,valid NPV
+model1,0.9315,0.8616,1.0,1.0,0.8804,0.6296,0.4681,0.8529,0.8148,0.537
+model2,0.7383,0.4717,1.0,1.0,0.6585,0.5802,0.3191,0.9412,0.8824,0.5
+model3,0.9502,0.8994,1.0,1.0,0.9101,0.642,0.4681,0.8824,0.8462,0.5455
