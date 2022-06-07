@@ -2,9 +2,9 @@
 \usepackage{booktabs}
 \usepackage{biblatex}
 \addbibresource{references.bib}
-\title{Kidney Semantic Segmentation using U-Net}
+\title{Comparison of Classification and Segmentation Models in Kidney Tumor Detection}
 \author{William Han \\ University of California, Irvine}
-\date{May 14, 2022}
+\date{June 9, 2022}
 
 
 \begin{document}
@@ -18,9 +18,9 @@ Kidney cancer is a common world-wide disease with an increasing prevalence \cite
 \section{Methods and Materials }
 The data used in this project comes from the Kidney Tumor Segmentation Challenge (KiTS) \cite{1}. It consists of 402 images and masks of kidney tumor CT exams. 321 images and masks were allocated to the training set and 81 for the validation set. 
 
-For the first classification model, 
+Each 2D CT scan had a dimensionality of 1 x 96 x 96 x 1 and a kernel size of 1 x 3 x 3 was used consistently. I used the 'same' padding method and 'he normal' as the kernel initializer. The sparse categorical cross entropy loss function was used throughout. In regards to metrics, I computed the accuracy, specificity, positive predictive value, and negative predictive value for training test set and validation test set. A batch normalization and ReLu activation function was applied after every convolutional layer. 
 
-
+For the first classification model, there were 36 layers, which includes the input, normalization, regularization, and convolutional layers. There were 223,986 total parameters, with 223,010 trainable and 976 non-trainable. The second segmentation U-Net model consists of 56 layers, 231,570 total parameters (230,498 trainable and 1,072 non-trainable). The third classification model utilizes the Squeeze and Excite technique after every other contracting layer and has a total of 48 layers. It has a total of 228,646 parameters, with 227,670 being trainable and 976 non-trainable. 
 
 \section{Results}
 hello

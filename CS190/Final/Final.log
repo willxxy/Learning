@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  6 JUN 2022 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  6 JUN 2022 17:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,54 +365,74 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 29.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 29.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
 
-Overfull \hbox (50.04176pt too wide) in paragraph at lines 29--39
+LaTeX Warning: Citation '1' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Citation '1' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Citation '2' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Citation '1' on page 1 undefined on input line 19.
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 31.
+
+Overfull \hbox (50.04176pt too wide) in paragraph at lines 31--41
  [][] 
  []
 
 
-Overfull \hbox (46.2701pt too wide) in paragraph at lines 47--57
+Overfull \hbox (46.2701pt too wide) in paragraph at lines 49--59
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[1
+[2] [3] (./Final.aux)
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./Final.aux)
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Final
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'Final.run.xml'.
 \openout1 = `Final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8376 strings out of 478268
- 164392 string characters out of 5846348
- 871714 words of memory out of 5000000
- 26560 multiletter control sequences out of 15000+600000
- 474769 words of font info for 46 fonts, out of 8000000 for 9000
+ 8560 strings out of 478268
+ 168042 string characters out of 5846348
+ 873761 words of memory out of 5000000
+ 26744 multiletter control sequences out of 15000+600000
+ 475076 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,68p,738b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,8n,68p,1344b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Final.pdf (2 pages, 85954 bytes).
+Output written on Final.pdf (3 pages, 90615 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
