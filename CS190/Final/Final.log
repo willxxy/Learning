@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  6 JUN 2022 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  6 JUN 2022 17:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,18 +381,21 @@ LaTeX Warning: Citation '1' on page 1 undefined on input line 19.
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 31.
+(Font)              <10.95> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
+(Font)              <6> on input line 33.
 
-Overfull \hbox (50.04176pt too wide) in paragraph at lines 31--41
+Overfull \hbox (50.04176pt too wide) in paragraph at lines 33--43
  [][] 
  []
 
 
-Overfull \hbox (46.2701pt too wide) in paragraph at lines 49--59
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (46.2701pt too wide) in paragraph at lines 51--61
  [][] 
  []
 
@@ -418,7 +421,7 @@ Package logreq Info: Writing requests to 'Final.run.xml'.
 Here is how much of TeX's memory you used:
  8560 strings out of 478268
  168042 string characters out of 5846348
- 873761 words of memory out of 5000000
+ 873764 words of memory out of 5000000
  26744 multiletter control sequences out of 15000+600000
  475076 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -429,7 +432,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Final.pdf (3 pages, 90615 bytes).
+Output written on Final.pdf (3 pages, 91129 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream

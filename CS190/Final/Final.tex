@@ -18,12 +18,14 @@ Kidney cancer is a common world-wide disease with an increasing prevalence \cite
 \section{Methods and Materials }
 The data used in this project comes from the Kidney Tumor Segmentation Challenge (KiTS) \cite{1}. It consists of 402 images and masks of kidney tumor CT exams. 321 images and masks were allocated to the training set and 81 for the validation set. 
 
-Each 2D CT scan had a dimensionality of 1 x 96 x 96 x 1 and a kernel size of 1 x 3 x 3 was used consistently. I used the 'same' padding method and 'he normal' as the kernel initializer. The sparse categorical cross entropy loss function was used throughout. In regards to metrics, I computed the accuracy, specificity, positive predictive value, and negative predictive value for training test set and validation test set. A batch normalization and ReLu activation function was applied after every convolutional layer. 
+Each 2D CT scan had a dimensionality of 1 x 96 x 96 x 1 and a kernel size of 1 x 3 x 3 was used consistently. I used the 'same' padding method and 'he normal' as the kernel initializer. The sparse categorical cross entropy loss function was used throughout. In regards to metrics, I computed the accuracy, specificity, positive predictive value (PPV), and negative predictive value (NPV) for training test set and validation test set. A batch normalization and ReLu activation function was applied after every convolutional layer.
 
 For the first classification model, there were 36 layers, which includes the input, normalization, regularization, and convolutional layers. There were 223,986 total parameters, with 223,010 trainable and 976 non-trainable. The second segmentation U-Net model consists of 56 layers, 231,570 total parameters (230,498 trainable and 1,072 non-trainable). The third classification model utilizes the Squeeze and Excite technique after every other contracting layer and has a total of 48 layers. It has a total of 228,646 parameters, with 227,670 being trainable and 976 non-trainable. 
 
+Due to the nature of the dimensionality (2D) for each CT scan, I had to implement a reduction strategy to fuse multiple predictions into a uniform prediction for each volume. For each prediction, I aggregated the exam score by adding all of the binarized validation predictions together. Taking these reduced scores, I applied a mean threshold to calculate the accuracy, sensitivity, PPV, and NPV. 
+
 \section{Results}
-hello
+Overall, the 2D custom classification model performed most optimal with a validation accuracy of 0.6420. The segmentation U-Net model had the worst validation accuracy (0.5802). Note that during training, the specificity and positive predictive value for all three models are synonymous. 
 
 \begin{table}[h!]
 \centering
@@ -61,10 +63,9 @@ hello
 \label{table:data}
 \end{table}
 
-Note that during training, the specificity and positive predictive value for all three models are synonymous. Overall, the 2D custom classification model performed most optimal with a validation accuracy of 
 
 \section{Discussion}
-The results were not expected because I hypothesized that the custom model would be best in performance. The biggest difference between the three different algorithms is the input dimensionality. The Squeeze and Excite model was given 2 dimensional data (1 x 96 x 96), therefore we cannot say how well it would perform on 96 x 96 x 96 images. I chose the Squeeze and Excite model due to its scalability in terms of feature maps. It would be interesting to experiment on 3D images for the custom model for future work. 
+The results were expected because I hypothesized that the custom, Squeeze and Excite classification model would be the best in performance. It is difficult to compare the segmentation model with the two classification models because of the different assigned tasks. However, I speculate that the U-Net segmentation model and the first classification model performed the worst because of the architecture's simplicity. Applying more convolutional layers and implementing residual connections or even the Squeeze and Excite method may boost their performance. For future works, I would like to expand the first classification model and the segmentation model by adding more layers and apply augmentation to the data. 
 
 
 \begin{thebibliography}{2}
