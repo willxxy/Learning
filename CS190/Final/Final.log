@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  6 JUN 2022 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.6)  6 JUN 2022 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Midterm.tex
-(./Midterm.tex
+**Final.tex
+(./Final.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -324,12 +324,12 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 \@quotelevel=\count390
 \@quotereset=\count391
 
-(./Midterm.aux
+(./Final.aux
 
 LaTeX Warning: Label `table:data' multiply defined.
 
 )
-\openout1 = `Midterm.aux'.
+\openout1 = `Final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -353,82 +353,66 @@ File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `Midterm.bcf'.
+\openout3 = `Final.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Midterm.bbl' not found.
+Package biblatex Info: ... file 'Final.bbl' not found.
 
-No file Midterm.bbl.
+No file Final.bbl.
 Package biblatex Info: Reference section=0 on input line 10.
 Package biblatex Info: Reference segment=0 on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 29.
 
-LaTeX Warning: Citation '1' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation '2' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation '1' on page 1 undefined on input line 19.
+Overfull \hbox (50.04176pt too wide) in paragraph at lines 29--39
+ [][] 
+ []
 
 
-LaTeX Warning: Citation '3' on page 1 undefined on input line 19.
+Overfull \hbox (46.2701pt too wide) in paragraph at lines 47--57
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.81491pt too wide) in paragraph at lines 25--26
-\OT1/cmr/m/n/12 train-able pa-ram-e-ters, and 1,072 non-trainable pa-ram-e-ters
-. The im-ages passed
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
-[2] [3] [4] (./Midterm.aux)
-
-LaTeX Warning: There were undefined references.
-
+[2] (./Final.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Midterm
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'Midterm.run.xml'.
-\openout1 = `Midterm.run.xml'.
+Package logreq Info: Writing requests to 'Final.run.xml'.
+\openout1 = `Final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8557 strings out of 478268
- 168022 string characters out of 5846348
- 873736 words of memory out of 5000000
- 26742 multiletter control sequences out of 15000+600000
- 474467 words of font info for 45 fonts, out of 8000000 for 9000
+ 8376 strings out of 478268
+ 164392 string characters out of 5846348
+ 871714 words of memory out of 5000000
+ 26560 multiletter control sequences out of 15000+600000
+ 474769 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,68p,1033b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Midterm.pdf (4 pages, 64076 bytes).
+ 60i,8n,68p,738b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Final.pdf (2 pages, 85954 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

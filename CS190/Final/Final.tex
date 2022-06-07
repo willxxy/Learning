@@ -12,24 +12,29 @@
 \maketitle
 
 \section{Introduction}
+Kidney cancer is a common world-wide disease with an increasing prevalence \cite{1}. Therefore, medical practitioners and researchers have dedicated countless hours in developing next generation technologies that will try to combat this pathology. In parallel, the field of machine learning has seen much success in image classification and segmentation using convolutional neural networks (CNN).The prognosis of kidney cancer is mainly determined by how early one detects it. Computed tomography (CT) imaging is a popular method radiologists use to uncover richer characteristics during deep inspection for kidney tumors \cite{1}. The collaboration between medical experts and computer scientists has made it possible to use CNNs for classifying and segmenting tumors in CT images. In this study, I will build 2 models for classification and a single model for segmentation on 2D CT scans of the kidney. The first classification model is a basic CNN while the second classification model uses a CNN with a Squeeze and Excite architecture. The segmentation model replicates the U-Net architecture \cite{2}. I will then proceed in a comparison study by computing metrics for all three models and acknowledging important differences between them in regards to performance and architecture. 
 
 
 \section{Methods and Materials }
+The data used in this project comes from the Kidney Tumor Segmentation Challenge (KiTS) \cite{1}. It consists of 402 images and masks of kidney tumor CT exams. 321 images and masks were allocated to the training set and 81 for the validation set. 
+
+For the first classification model, 
 
 
 
 \section{Results}
+hello
 
 \begin{table}[h!]
 \centering
-
-\begin{tabular}{||c c c c c ||} 
+\small
+\begin{tabular}{ c c c c c c } 
  \hline
- Models & Train Accuracy & Train Specificity & Train & 75th percentile \\ [0.5ex] 
+ Models & Train Acc. & Train Spec. & Train PPV & Train NPV\\  [0.5ex] 
  \hline
- 2D Classification & 0.954 & 0.964 & 0.950 & 0.973 \\ 
- 2D Segmentation  & \textbf{0.964} & \textbf{0.970} & \textbf{0.961} & \textbf{0.975}\\
- 2D Custom Classification & 0.950 & 0.964 & 0.946 & 0.971\\
+ 2D Classification & 0.9315 & 0.8616 & \textbf{1.0000} & \textbf{1.0000} & 0.8804 \\
+ 2D Segmentation  & 0.7383 & 0.4717 & \textbf{1.0000} & \textbf{1.0000} & 0.6585 \\
+ 2D Custom Classification & \textbf{0.9502} & \textbf{0.8994} & \textbf{1.0000} & \textbf{1.0000} & \textbf{0.9101}\\
 
  \hline
 \end{tabular}
@@ -40,23 +45,23 @@
 
 \begin{table}[h!]
 \centering
+\small
+\begin{tabular}{ c c c c c c } 
+ \hline
+ Models & Valid Acc. & Valid Spec. & Valid PPV & Valid NPV \\  [0.5ex] 
+ \hline
+ 2D Classification & 0.6296 & \textbf{0.4681} & 0.8529 & 0.8148 & 0.5370 \\
+ 2D Segmentation & 0.5802 & 0.3191 & 0.9412 & \textbf{0.8824} & 0.5000 \\
+ 2D Custom Classification & \textbf{0.6420} & \textbf{0.4681} & 0.8824 & 0.8462 & \textbf{0.5455}\\
 
-\begin{tabular}{||c c c c c ||} 
- \hline
- Models & Mean & Median & 25th percentile & 75th percentile \\ [0.5ex] 
- \hline
- 2D  & 0.923 & \textbf{0.956} & 0.912 & \textbf{0.969}\\ 
- 3D  & \textbf{0.933} & \textbf{0.956} & \textbf{0.936} &0.967 \\
- Custom & 0.931 & \textbf{0.956} &  0.926 & \textbf{0.969}\\
-
- \hline
+\hline
 \end{tabular}
 
 \caption{Statistics for Validation Test Set}
 \label{table:data}
 \end{table}
 
-Note that during validation, the median for all three models were synonymous. Additionally, the 75th percentile for the 2D U-Net model and the custom U-Net model were the same. Overall, it seems that that 3D U-Net model generally outperforms the others. 
+Note that during training, the specificity and positive predictive value for all three models are synonymous. Overall, the 2D custom classification model performed most optimal with a validation accuracy of 
 
 \section{Discussion}
 The results were not expected because I hypothesized that the custom model would be best in performance. The biggest difference between the three different algorithms is the input dimensionality. The Squeeze and Excite model was given 2 dimensional data (1 x 96 x 96), therefore we cannot say how well it would perform on 96 x 96 x 96 images. I chose the Squeeze and Excite model due to its scalability in terms of feature maps. It would be interesting to experiment on 3D images for the custom model for future work. 
