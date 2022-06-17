@@ -1,6 +1,6 @@
 /******TAG SELECTORS********/
 
-h1{
+h1 {
   color: red;
   font-size: 200px;
 }
@@ -18,4 +18,10 @@ img{
 
 .broccoli {
   background-color:  red;
+}
+
+/********ID SELECTORS********/
+
+#heading {
+  color: blue;
 }
