@@ -2,8 +2,8 @@ import React from 'react'
 import { ChannelList, useChatContext } from 'stream-chat-react';
 import Cookies from 'universal-cookie';
 import { ChennelSearch, TeamChannelList, TeamChannelPreview} from './'; 
-
-import GeolocationIcon from '../assets/geolocation.png'
+import GeolocationIcon from '../assets/hospital.png'
+import LogoutIcon from '../assets/logout.png'
 
 const SideBar = () => (
     <div className="channel-list__sidebar">
@@ -12,12 +12,30 @@ const SideBar = () => (
                 <img src={GeolocationIcon} alt="Geolocation" width="30" />
             </div>
         </div>
+            <div className="channel-list__sidebar__icon2">
+                <div className="icon1__inner">
+                    <img src={LogoutIcon} alt="Logout" width="30" />
+                </div>
+            </div>
+        </div>
+);
+
+
+const CompanyHeader = () => (
+    <div className="channel-list__header">
+        <p classNAme="channel-list__header__text">Geolocation Pager</p>
     </div>
 )
 
+
 const ChannelListContainer = () => {
   return (
-    <div>ChannelListContainer</div>
+    <>
+        <SideBar />
+        <div className="channel-list__list__wrapper">
+            <CompanyHeader/>
+        </div>
+    </>
   );
 }
 

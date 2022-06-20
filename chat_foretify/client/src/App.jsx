@@ -20,7 +20,6 @@ const App = () => {
             />
 
         </Chat>
-        <h1>GeoLocation Chat App</h1>
     </div>
   );
 }
