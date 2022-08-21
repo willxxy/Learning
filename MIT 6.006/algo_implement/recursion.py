@@ -14,10 +14,17 @@ def dosomething(n):
     else:
         return (dosomething(math.floor(math.sqrt(n)))) + n
 
+def recursive(n):
+    if n ==1:
+        return 1
+    else:
+        return recursive(n-1) + recursive(n-1)
+
 if __name__  == '__main__':
     start_time = time.time()
 
-    print(dosomething(70000))
+    # print(dosomething(70000))
+    print(recursive(5))
     print()
     print("--- %s seconds ---" % (time.time() - start_time))
 
